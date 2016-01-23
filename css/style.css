@@ -143,53 +143,6 @@
 
   .offset-by-one-half.column, .offset-by-one-half.columns {
     margin-left: 52%; } }
-/* Base Styles
- *–––––––––––––––––––––––––––––––––––––––––––––––––– */
-html {
-  font-size: 100%; }
-
-body {
-  font-size: 1em;
-  /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: auto;
-  color: #1c1c1c; }
-
-/* Typography
- *–––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1 {
-  font-size: 4rem; }
-
-h2 {
-  font-size: 3.6rem; }
-
-h3 {
-  font-size: 3rem; }
-
-h4 {
-  font-size: 2.4rem; }
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-  h1 {
-    font-size: 5rem; }
-
-  h2 {
-    font-size: 4.2rem; }
-
-  h3 {
-    font-size: 3.6rem; }
-
-  h4 {
-    font-size: 3rem; }
-
-  h5 {
-    font-size: 2.4rem; }
-
-  h6 {
-    font-size: 1.5rem; } }
-p, h1, h2, h3, h4, h5, h6 {
-  margin-top: 0; }
-
 /* Links
  *–––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
@@ -393,3 +346,57 @@ h1, h2, h3, h4, h5, h6 {
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
+/* Type */
+@font-face {
+  font-family: "usual";
+  src: url(../fonts/Usual-RegularWeb.eot) format("eot");
+  src: url(../fonts/Usual-RegularWeb.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "usual-bold";
+  src: url(../fonts/Usual-BoldWeb.eot) format("eot");
+  src: url(../fonts/Usual-BoldWeb.woff) format("woff");
+  font-weight: bold;
+  font-style: normal; }
+html {
+  font-size: 100%; }
+
+body {
+  font-size: 1em;
+  font-family: "usual";
+  /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: auto;
+  color: #1c1c1c; }
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: inherit; }
+
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 3.6rem; }
+
+h3 {
+  font-size: 3rem; }
+
+h4 {
+  font-size: 2.4rem; }
+
+/* Larger than phablet */
+h1 {
+  font-size: 5rem; }
+
+h2 {
+  font-size: 4.2rem; }
+
+h3 {
+  font-size: 3.6rem; }
+
+h4 {
+  font-size: 3rem; }
+
+b, strong {
+  font-family: "usual-bold"; }
