@@ -1,0 +1,45 @@
+// Espaciados
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+// Se propone condicionar las reglas universales
+// de espaciado a contenedores específicos, para buscar
+// flexibilidad con elementos que requieren espaciados
+// muy precisos (menús, etc.)
+
+.spacer
+	button, .button
+		margin-bottom: 1rem
+	input, textarea, select, fieldset
+		margin-bottom: 1.5rem
+	pre, blockquote, dl, figure, table, p, ul, ol, form
+		margin-bottom: 2.5rem
+	h1, h2, h3, h4, h5, h6
+		margin-bottom: 2rem
+
+// Color
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$negro: #0d0d0d
+$gris_claro: #919191
+$rojo: #fb0d1b
+$azul: #0b24fa
+
+// Menú Superior
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+
+header
+	text-align: right
+#top_menu
+	background-color: white
+	padding: .7em 0
+	a
+		color: $gris_claro
+#top_menu_categories
+	background-color: $rojo
+	padding: 2em 0
+	a
+		color: white
+#top_menu ul,
+#top_menu_categories ul
+	li
+		display: inline-block
+		padding: .5em

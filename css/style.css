@@ -313,20 +313,6 @@ th:first-child, td:first-child {
 th:last-child, td:last-child {
   padding-right: 0; }
 
-/* Spacing
- *–––––––––––––––––––––––––––––––––––––––––––––––––– */
-button, .button {
-  margin-bottom: 1rem; }
-
-input, textarea, select, fieldset {
-  margin-bottom: 1.5rem; }
-
-pre, blockquote, dl, figure, table, p, ul, ol, form {
-  margin-bottom: 2.5rem; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 2rem; }
-
 /* Clearing
  *–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */
@@ -400,3 +386,32 @@ h4 {
 
 b, strong {
   font-family: "usual-bold"; }
+
+.spacer button, .spacer .button {
+  margin-bottom: 1rem; }
+.spacer input, .spacer textarea, .spacer select, .spacer fieldset {
+  margin-bottom: 1.5rem; }
+.spacer pre, .spacer blockquote, .spacer dl, .spacer figure, .spacer table, .spacer p, .spacer ul, .spacer ol, .spacer form {
+  margin-bottom: 2.5rem; }
+.spacer h1, .spacer h2, .spacer h3, .spacer h4, .spacer h5, .spacer h6 {
+  margin-bottom: 2rem; }
+
+header {
+  text-align: right; }
+
+#top_menu {
+  background-color: white;
+  padding: 0.7em 0; }
+  #top_menu a {
+    color: #919191; }
+
+#top_menu_categories {
+  background-color: #fb0d1b;
+  padding: 2em 0; }
+  #top_menu_categories a {
+    color: white; }
+
+#top_menu ul li,
+#top_menu_categories ul li {
+  display: inline-block;
+  padding: 0.5em; }

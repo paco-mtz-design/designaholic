@@ -25,6 +25,36 @@ Index
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
+	<header>
+		<nav id="top_menu">
+			<div class="container">
+			<ul>
+				<li><a href="#">Reciente</a></li><li>
+					<a href="#">Acerca</a></li><li>
+					<a href="#">Columnas</a></li><li>
+					<a href="#">Categorías</a></li><li>
+					<a href="#">Archivo</a></li><li>
+					<a href="#">Autores</a></li><li>
+					<a href="#">Buscar</a></li>
+			</ul>
+			</div>
+		</nav>
+		<div id="top_menu_categories">
+			<div class="container">
+			<ul>
+				<li><a href="#">Arquitectura</a></li><li>
+					<a href="#">Comercial</a></li><li>
+					<a href="#">Interiores</a></li><li>
+					<a href="#">Gráfico</a></li><li>
+					<a href="#">Gadgets</a></li><li>
+					<a href="#">Moda</a></li><li>
+					<a href="#">Producto</a></li><li>
+					<a href="#">Mobiliario</a></li>
+			</ul>
+			</div>
+		</div>
+	</header>
+
 	<div class="container">
 		<div class="row">
 			<div class="one-half column">
