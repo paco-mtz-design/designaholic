@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/* Color Variables */
-/*    Breakpoints */
-/* Key Variables */
-/* Patterns & Sections */
 /** Skeleton V2.0.4
  ** Copyright 2014, Dave Gamache
  ** www.getskeleton.com
@@ -386,6 +382,9 @@ h4 {
 
 b, strong {
   font-family: "usual-bold"; }
+
+.rojo_txt {
+  color: #fb0d1b; }
 
 .spacer button, .spacer .button {
   margin-bottom: 1rem; }
