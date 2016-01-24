@@ -11,9 +11,10 @@ Index
 
 		<!-- Primer bloque de 3 destacados -->
 		<div class="home_destacados_uno">
+
 			<h2>#AbiertoDeDiseño2015</h2>
-			<div class="row">
-				<div class="three columns">
+			<div class="row lista_articulos">
+				<div class="three columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img1.jpg" alt="">
 						<div class="meta">
@@ -23,7 +24,7 @@ Index
 						<h3>Los Nuevos Chromecasts por Google</h3>
 					</a>
 				</div>
-				<div class="six columns">
+				<div class="six columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img2.jpg" alt="">
 						<div class="meta">
@@ -33,7 +34,7 @@ Index
 						<h2>Casey Gerald: La Importancia de un Propósito</h2>
 					</a>
 				</div>
-				<div class="three columns">
+				<div class="three columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img3.jpg" alt="">
 						<div class="meta">
@@ -46,20 +47,31 @@ Index
 			</div>
 
 			<!-- Primer bloque de Ads -->
-			<div class="row home_ads_uno">
+			<div class="row home_ads_uno ad_group">
 				<div class="ten columns offset-by-one">
+
 					<div class="ad_dh_uno">
-						<img src="img/placeholders/ad_dh1.jpg" alt="">
-						<h4>Nuevos espacios para Baker & McKenzie, por IHO Espacios / Knoll.</h4>
-						<span><a>Publicidad de nuestros patrocinadores.
-						<br><a href="#">Anúnicate aquí
-						</a>.</span>
+						<div>
+							<a href=""><img src="img/placeholders/ad_dh1.jpg" alt=""></a>
+						</div>
+						<div>
+							<div>
+								<a href=""><h4>Nuevos espacios para Baker & McKenzie, por IHO Espacios / Knoll.</h4></a>
+							</div>
+							<div>
+								<span class="small">Publicidad de nuestros patrocinadores. <a href="#">Anúnicate aquí</a>.
+								</span>
+							</div>
+						</div>
 					</div>
+
 					<div class="ad_google_uno">
-						<img src="img/placeholders/ad_google1.jpg" alt="">
+						<img src="img/placeholders/ad_google1.jpg" width="300" height="250" alt="">
 					</div>
+
 				</div>
 			</div>
+
 		</div>
 
 	</div><!-- Container -->
@@ -69,11 +81,11 @@ Index
 	<div class="container spacer">
 
 		<!-- Artículos Recientes -->
-		<div class="home_destacados_dos">
+		<div class="home_destacados_dos lista_articulos">
 			<h2>Artículos Recientes</h2>
 
 			<div class="row">
-				<div class="six columns">
+				<div class="six columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img1.jpg" alt="">
 						<div class="meta">
@@ -83,7 +95,7 @@ Index
 						<h2>El SUV Model X de Tesla</h2>
 					</a>
 				</div>
-				<div class="six columns">
+				<div class="six columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img2.jpg" alt="">
 						<div class="meta">
@@ -96,7 +108,7 @@ Index
 			</div>
 
 			<div class="row">
-				<div class="three columns galeria">
+				<div class="three columns articulo galeria">
 					<a href="#">
 						<img src="img/placeholders/row_img3.jpg" alt="">
 						<div class="meta">
@@ -106,7 +118,7 @@ Index
 						<h4><span class="rojo_txt">Galería:</span> Ettore Sottsasss Antes de Memphis</h4>
 					</a>
 				</div>
-				<div class="three columns galeria">
+				<div class="three columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img4.jpg" alt="">
 						<div class="meta">
@@ -116,7 +128,7 @@ Index
 						<h4>Abierto Mexicano de Disenno 2015: La Revista Fragmentada, Introspectiva editorial de Sada por Casa Gutiérez Nájera</h4>
 					</a>
 				</div>
-				<div class="three columns galeria">
+				<div class="three columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img5.jpg" alt="">
 						<div class="meta">
@@ -126,7 +138,7 @@ Index
 						<h4>MP01: Tecnología Domesticada por Punkt</h4>
 					</a>
 				</div>
-				<div class="three columns galeria">
+				<div class="three columns articulo video">
 					<a href="#">
 						<img src="img/placeholders/row_img6.jpg" alt="">
 						<div class="meta">
@@ -139,27 +151,33 @@ Index
 			</div>
 		</div>
 
-		<div class="ad_google_dos">
-			<img src="img/placeholders/ad_google2.jpg" alt="">
+		<!-- Ad Google largo (horizontal) -->
+		<div class="row home_ads_dos ad_group">
+			<div class="ten columns offset-by-one">
+				<div class="ad_google_uno">
+					<img src="img/placeholders/ad_google2.jpg" alt="">
+				</div>
+			</div>
 		</div>
 
 		<!-- Festival Decode -->
 		<div class="home_destacados_tres">
 			<h2>Festival Decode</h2>
 			<div class="row">
-				<div class="three columns">
+				<div class="three columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img1.jpg" alt="">
-						<h3>Decode celebra el diseño y sus diferentes vertientes en un fin de semana con actividades relacionadas con el diseño, la creatividad y la innovación.</h3>
+						<p><strong>Decode</strong> celebra el diseño y sus diferentes vertientes en un fin de semana con actividades relacionadas con el diseño, la creatividad y la innovación.
+						<br><br>Visita el sitio oficial.</p>
 					</a>
 				</div>
-				<div class="six columns">
+				<div class="six columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img2.jpg" alt="">
 						<h2>Resumen del Festival Decode 2015</h2>
 					</a>
 				</div>
-				<div class="three columns">
+				<div class="three columns articulo">
 					<a href="#">
 						<img src="img/placeholders/row_img3.jpg" alt="">
 						<h3>Exposición Generación Decode 2015</h3>

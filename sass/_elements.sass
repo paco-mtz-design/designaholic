@@ -3,23 +3,37 @@
 	*- Espaciados
 	*- Links
 	*- Menú Superior
+	*- Listados Artículos
+	*- Ads
 
 // Espaciados
 // *––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Border-box, como lo recomienda Chris Coyier
+html
+	box-sizing: border-box
+*, *:before, *:after
+	box-sizing: inherit
+
 // Se propone condicionar las reglas universales
 // de espaciado a contenedores específicos, para buscar
 // flexibilidad con elementos que requieren espaciados
 // muy precisos (menús, etc.)
 
+$espacio_sencillo: 1rem
+$espacio_medio: 1.5rem
+$espacio_doble: 2rem
+$espacio_bloque: 3rem
+
 .spacer
 	button, .button
-		margin-bottom: 1rem
+		margin-bottom: $espacio_sencillo
 	input, textarea, select, fieldset
-		margin-bottom: 1.5rem
+		margin-bottom: $espacio_medio
 	pre, blockquote, dl, figure, table, p, ul, ol, form
-		margin-bottom: 2.5rem
+		margin-bottom: $espacio_bloque
 	h1, h2, h3, h4, h5, h6
-		margin-bottom: 2rem
+		margin-bottom: $espacio_doble
 
 /* Links
  *––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -34,6 +48,7 @@ a
 
 header
 	text-align: right
+	margin-bottom: $espacio_bloque
 #top_menu
 	background-color: white
 	padding: .7em 0
@@ -41,7 +56,7 @@ header
 		color: $gris_claro
 #top_menu_categories
 	background-color: $rojo
-	padding: 2em 0
+	padding: $espacio_doble 0
 	a
 		color: white
 #top_menu ul,
@@ -49,3 +64,44 @@ header
 	li
 		display: inline-block
 		padding: .5em
+
+// Listado de Artículos
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.articulo
+	margin-bottom: $espacio_doble
+	a
+		>img, div.meta, h3, h4
+			margin-bottom: 1em
+
+.meta
+	@extend small
+	overflow: auto
+	color: $gris_claro
+	>span:first-child
+		float: left
+	>span:last-child
+		float: right
+
+// Ads
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+.ad_group
+	margin-bottom: $espacio_bloque
+
+.ad_dh_uno
+	>div:first-child
+		float: left
+		width: 50%
+	>div:last-child
+		float: right
+		width: 50%
+		>div
+			padding: 1em
+		>div:first-child
+			background-color: $gris_calido
+		span
+			color: $gris_claro
+
+
+.ad_google_uno
+	text-align: right

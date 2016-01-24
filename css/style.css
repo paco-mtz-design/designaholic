@@ -343,6 +343,9 @@ h3 {
 h4 {
   font-size: 1.2rem; }
 
+small, .meta {
+  font-size: 0.8em; }
+
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 {
@@ -366,13 +369,21 @@ b, strong {
  *––––––––––––––––––––––––––––––––––––––––––––––––––
  *- Espaciados
  *- Links
- *- Menú Superior */
+ *- Menú Superior
+ *- Listados Artículos
+ *- Ads */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 .spacer button, .spacer .button {
   margin-bottom: 1rem; }
 .spacer input, .spacer textarea, .spacer select, .spacer fieldset {
   margin-bottom: 1.5rem; }
 .spacer pre, .spacer blockquote, .spacer dl, .spacer figure, .spacer table, .spacer p, .spacer ul, .spacer ol, .spacer form {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 3rem; }
 .spacer h1, .spacer h2, .spacer h3, .spacer h4, .spacer h5, .spacer h6 {
   margin-bottom: 2rem; }
 
@@ -384,7 +395,8 @@ a {
     color: #919191; }
 
 header {
-  text-align: right; }
+  text-align: right;
+  margin-bottom: 3rem; }
 
 #top_menu {
   background-color: white;
@@ -394,7 +406,7 @@ header {
 
 #top_menu_categories {
   background-color: #fb0d1b;
-  padding: 2em 0; }
+  padding: 2rem 0; }
   #top_menu_categories a {
     color: white; }
 
@@ -402,3 +414,46 @@ header {
 #top_menu_categories ul li {
   display: inline-block;
   padding: 0.5em; }
+
+.articulo {
+  margin-bottom: 2rem; }
+  .articulo a > img, .articulo a div.meta, .articulo a h3, .articulo a h4 {
+    margin-bottom: 1em; }
+
+.meta {
+  overflow: auto;
+  color: #919191; }
+  .meta > span:first-child {
+    float: left; }
+  .meta > span:last-child {
+    float: right; }
+
+.ad_group {
+  margin-bottom: 3rem; }
+
+.ad_dh_uno > div:first-child {
+  float: left;
+  width: 50%; }
+.ad_dh_uno > div:last-child {
+  float: right;
+  width: 50%; }
+  .ad_dh_uno > div:last-child > div {
+    padding: 1em; }
+  .ad_dh_uno > div:last-child > div:first-child {
+    background-color: #ebebeb; }
+  .ad_dh_uno > div:last-child span {
+    color: #919191; }
+
+.ad_google_uno {
+  text-align: right; }
+
+/* Contenidos
+ *––––––––––––––––––––––––––––––––––––––––––––––––––
+ *- Home */
+.home_ads_uno > div > div:first-child {
+  width: 65%;
+  float: left; }
+.home_ads_uno > div > div:last-child {
+  width: 35%;
+  float: right;
+  text-align: right; }
