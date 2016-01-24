@@ -8,16 +8,10 @@
 /* Table of contents
  *––––––––––––––––––––––––––––––––––––––––––––––––––
  *- Grid
- *- Base Styles
- *- Typography
- *- Links
  *- Buttons
  *- Forms
  *- Lists
- *- Code
  *- Tables
- *- Spacing
- *- Utilities
  *- Clearing
  *- Media Queries */
 /* Grid
@@ -139,13 +133,6 @@
 
   .offset-by-one-half.column, .offset-by-one-half.columns {
     margin-left: 52%; } }
-/* Links
- *–––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-  color: #1EAEDB; }
-  a:hover {
-    color: #0FA0CE; }
-
 /* Buttons
  *–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button, button {
@@ -353,39 +340,45 @@ body {
 
 p, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-weight: inherit; }
+  font-weight: inherit;
+  line-height: 130%; }
 
 h1 {
-  font-size: 4rem; }
+  font-size: 1.8rem; }
 
 h2 {
-  font-size: 3.6rem; }
+  font-size: 1.6rem; }
 
 h3 {
-  font-size: 3rem; }
+  font-size: 1.4rem; }
 
 h4 {
-  font-size: 2.4rem; }
+  font-size: 1.2rem; }
 
 /* Larger than phablet */
-h1 {
-  font-size: 5rem; }
+@media (min-width: 550px) {
+  h1 {
+    font-size: 4.5rem; }
 
-h2 {
-  font-size: 4.2rem; }
+  h2 {
+    font-size: 2.625rem; }
 
-h3 {
-  font-size: 3.6rem; }
+  h3 {
+    font-size: 2rem; }
 
-h4 {
-  font-size: 3rem; }
-
+  h4 {
+    font-size: 1.5rem; } }
 b, strong {
   font-family: "usual-bold"; }
 
 .rojo_txt {
   color: #fb0d1b; }
 
+/* Contenidos
+ *––––––––––––––––––––––––––––––––––––––––––––––––––
+ *- Espaciados
+ *- Links
+ *- Menú Superior */
 .spacer button, .spacer .button {
   margin-bottom: 1rem; }
 .spacer input, .spacer textarea, .spacer select, .spacer fieldset {
@@ -394,6 +387,13 @@ b, strong {
   margin-bottom: 2.5rem; }
 .spacer h1, .spacer h2, .spacer h3, .spacer h4, .spacer h5, .spacer h6 {
   margin-bottom: 2rem; }
+
+/* Links
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #0d0d0d; }
+  a:hover {
+    color: #919191; }
 
 header {
   text-align: right; }
