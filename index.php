@@ -77,6 +77,16 @@ Index
 	</div><!-- Container -->
 
 	<!-- Columnas Designaholic -->
+	<div class="columnas_home fondo_azul bloque_horizontal">
+		<div class="columnas_autor_foto">
+			<img src="img/placeholders/row_img4.jpg" alt="">
+		</div>
+		<div class="container spacer columnas_quote">
+			<h2>Columnas Designaholic</h2>
+			<blockquote><a href="">"... Como ponente, Ariel Rojo es una persona directa y humilde que logra transmitir con pasión los conceptos que intenta generar con su creatividad. Las múltiples ramas del diseño con las que interactúa lo vuelven, de la misma manera ..."</a></blockquote>
+			<p class="color_gris_claro">Ariel Rojo, sobre el taller entre Sanborns y Kikkerland Design: Desarrollando Talento Mexicano</p>
+		</div>
+	</div>
 
 	<div class="container spacer">
 
@@ -187,6 +197,44 @@ Index
 		</div>
 
 	</div><!-- Container -->
+
+	<!-- Footer -->
+	<div id="footer" class="fondo_azul_oscuro bloque_horizontal">
+		<div class="container spacer">
+			<h2>Desde 2009, Designaholic.mx difunde el trabajo de diseñadores mexicanos e internacionales, promueve crítica y opinión sobre varias disciplinas de Diseño, y cubre los eventos de Diseño más importantes a nivel internacional.</h2>
+			<div class="row">
+				<div class="four columns">
+					<h4>Suscríbete a nuestro Newsletter</h4>
+					<form action="" class="forma_negativo">
+						<input type="text" placeholder="Tu Nombre">
+						<input type="text" placeholder="Tu Correo">
+						<input type="submit" value="Suscríbete">
+					</form>
+				</div>
+				<div class="four columns">
+					<h4>Suscríbete a nuestro Newsletter</h4>
+					<ul class="follow_links">
+						<li class="follow_twitter"><a href="#">Tw</a></li><li class="follow_google">
+							<a href="#">G+</a></li><li class="follow_facebook">
+							<a href="#">Fb</a></li><li class="follow_linkedin">
+							<a href="#">Li</a></li><li class="follow_rss">
+							<a href="#">Rss</a></li><li class="follow_pinterest">
+							<a href="#">Pi</a>
+						</li>
+					</ul>
+				</div>
+				<div class="three columns offset-by-one">
+					<h4>Ligas de Interés</h4>
+					<ul>
+						<li><a href="#">Contacto</a></li>
+						<li><a href="#">Patrocinadores</a></li>
+						<li><a href="#">Aviso de Privacidad</a></li>
+						<li><a href="#">Mapa de Sitio</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

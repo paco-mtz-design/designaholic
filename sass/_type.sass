@@ -24,26 +24,26 @@ body
 	line-height: auto
 	color: #1c1c1c
 
-p, h1, h2, h3, h4, h5, h6
+html *, body *
+	line-height: 130%
+
+p, h1, h2, h3, h4, h5, h6, blockquote
 	margin-top: 0
 	font-weight: inherit
-	line-height: 130%
 
 // Mobile font sizes
 h1
 	font-size: 1.8rem
-	// 72px
 h2
 	font-size: 1.6rem
-	// 42
 h3
 	font-size: 1.4rem
-	// 32
 h4
 	font-size: 1.2rem
-	// 24
 small
 	font-size: .8em
+blockquote
+	font-size: 1.6em
 
 /* Larger than phablet
 @media (min-width: 550px)
@@ -59,6 +59,8 @@ small
 	h4
 		font-size: 1.5rem
 		// 24
+	blockquote
+		font-size: 2.625rem
 
 b, strong
 	font-family: "usual-bold"

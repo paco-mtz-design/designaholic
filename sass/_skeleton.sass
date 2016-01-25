@@ -138,45 +138,40 @@ $column-margin: 2%
 /* Buttons
  *––––––––––––––––––––––––––––––––––––––––––––––––––
 
+// Buttons base style
 .button, button
 	display: inline-block
-	height: 38px
-	padding: 0 30px
-	color: #555
+	height: 3em
+	padding: 0 1em
+	color: inherit
 	text-align: center
-	font-size: 11px
-	font-weight: 600
-	line-height: 38px
-	letter-spacing: .1rem
-	text-transform: uppercase
 	text-decoration: none
 	white-space: nowrap
-	background-color: transparent
-	border-radius: 4px
-	border: 1px solid #bbb
-	cursor: pointer
+	background-color: inherit
+	border: 1px solid #d7d7d7
+	border-radius: none
+	box-shadow: none
 	box-sizing: border-box
+	font-size: inherit
+	cursor: pointer
 
 input
 	&[type="submit"], &[type="reset"], &[type="button"]
 		display: inline-block
-		height: 38px
-		padding: 0 30px
-		color: #555
-		text-align: center
-		font-size: 11px
-		font-weight: 600
-		line-height: 38px
-		letter-spacing: .1rem
-		text-transform: uppercase
+		height: 3em
+		padding: 0 1em
+		color: inherit
 		text-decoration: none
 		white-space: nowrap
-		background-color: transparent
-		border-radius: 4px
-		border: 1px solid #bbb
-		cursor: pointer
+		background-color: inherit
+		border: 1px solid #d7d7d7
+		border-radius: none
+		box-shadow: none
 		box-sizing: border-box
+		font-size: inherit
+		cursor: pointer
 
+// Hover states
 .button:hover, button:hover
 	color: #333
 	border-color: #888
@@ -184,78 +179,51 @@ input
 
 input
 	&[type="submit"]:hover, &[type="reset"]:hover, &[type="button"]:hover
-		color: #333
-		border-color: #888
+		border-color: $azul
 		outline: 0
 
+// Focus States
 .button:focus, button:focus
-	color: #333
-	border-color: #888
+	border-color: $azul
 	outline: 0
 
 input
 	&[type="submit"]:focus, &[type="reset"]:focus, &[type="button"]:focus
-		color: #333
-		border-color: #888
-		outline: 0
-
-.button.button-primary, button.button-primary
-	color: #FFF
-	background-color: #33C3F0
-	border-color: #33C3F0
-
-input
-	&[type="submit"].button-primary, &[type="reset"].button-primary, &[type="button"].button-primary
-		color: #FFF
-		background-color: #33C3F0
-		border-color: #33C3F0
-
-.button.button-primary:hover, button.button-primary:hover
-	color: #FFF
-	background-color: #1EAEDB
-	border-color: #1EAEDB
-
-input
-	&[type="submit"].button-primary:hover, &[type="reset"].button-primary:hover, &[type="button"].button-primary:hover
-		color: #FFF
-		background-color: #1EAEDB
-		border-color: #1EAEDB
-
-.button.button-primary:focus, button.button-primary:focus
-	color: #FFF
-	background-color: #1EAEDB
-	border-color: #1EAEDB
-
-input
-	&[type="submit"].button-primary:focus, &[type="reset"].button-primary:focus, &[type="button"].button-primary:focus
-		color: #FFF
-		background-color: #1EAEDB
-		border-color: #1EAEDB
-	&[type="email"], &[type="number"], &[type="search"], &[type="text"], &[type="tel"], &[type="url"], &[type="password"]
-		height: 38px
-		padding: 6px 10px
-		/* The 6px vertically centers text on FF, ignored by Webkit
-		background-color: #fff
-		border: 1px solid #D1D1D1
-		border-radius: 4px
-		box-shadow: none
-		box-sizing: border-box
+		color: inherit
+		background-color: $rojo
+		border-color: inherit
 
 /* Forms
  *––––––––––––––––––––––––––––––––––––––––––––––––––
 
+form.forma_negativo
+	input
+		color: white
+
+input
+	&[type="email"], &[type="number"], &[type="search"], &[type="text"], &[type="tel"], &[type="url"], &[type="password"]
+		height: 3em
+		padding: 1em
+		width: 100%
+		font-size: inherit
+		background-color: transparent
+		border: 1px solid #d7d7d7
+		border-radius: none
+		box-shadow: none
+		box-sizing: border-box
+
 textarea, select
-	height: 38px
-	padding: 6px 10px
-	/* The 6px vertically centers text on FF, ignored by Webkit
-	background-color: #fff
-	border: 1px solid #D1D1D1
-	border-radius: 4px
+	height: 3em
+	padding: 1em
+	width: 100%
+	font-size: inherit
+	background-color: transparent
+	border: 1px solid #d7d7d7
+	border-radius: none
 	box-shadow: none
 	box-sizing: border-box
 
 /* Removes awkward default styles on some inputs for iOS
-
 input
 	&[type="email"], &[type="number"], &[type="search"], &[type="text"], &[type="tel"], &[type="url"], &[type="password"]
 		-webkit-appearance: none
@@ -270,13 +238,14 @@ textarea
 	padding-top: 6px
 	padding-bottom: 6px
 
+// Focus States
 input
 	&[type="email"]:focus, &[type="number"]:focus, &[type="search"]:focus, &[type="text"]:focus, &[type="tel"]:focus, &[type="url"]:focus, &[type="password"]:focus
-		border: 1px solid #33C3F0
+		border: 1px solid $azul
 		outline: 0
 
 textarea:focus, select:focus
-	border: 1px solid #33C3F0
+	border: 1px solid $azul
 	outline: 0
 
 label, legend

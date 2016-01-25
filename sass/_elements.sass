@@ -2,7 +2,9 @@
 	*––––––––––––––––––––––––––––––––––––––––––––––––––
 	*- Espaciados
 	*- Links
+	*- Colores
 	*- Menú Superior
+	*- Footer
 	*- Listados Artículos
 	*- Ads
 
@@ -35,6 +37,10 @@ $espacio_bloque: 3rem
 	h1, h2, h3, h4, h5, h6
 		margin-bottom: $espacio_doble
 
+.bloque_horizontal
+	margin-bottom: $espacio_bloque
+	padding-top: $espacio_bloque
+
 /* Links
  *––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -42,6 +48,25 @@ a
 	color: $negro
 	&:hover
 		color: $gris_claro
+
+/* Links
+ *––––––––––––––––––––––––––––––––––––––––––––––––––
+.fondo_rojo
+	background-color: $rojo
+.fondo_azul
+	background-color: $azul
+.fondo_azul_oscuro
+	background-color: $azul_oscuro
+.color_negro
+	color: #0d0d0d
+.color_gris_claro
+	color: #919191
+.color_gris_calido
+	color: #ebebeb
+.color_rojo
+	color: #fb0d1b
+.color_azul
+	color: #0b24fa
 
 // Menú Superior
 // *––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -64,6 +89,37 @@ header
 	li
 		display: inline-block
 		padding: .5em
+
+// Footer
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+
+#footer
+	margin-bottom: 0
+#footer, #footer a
+	color: white
+ul.follow_links
+	li
+		text-align: center
+		display: inline-block
+		a
+			display: block
+			padding: 1em 0
+			margin: 0 .5em 1em .5em
+			width: 5.5em
+		a:hover
+			opacity: .8
+.follow_twitter a
+	background-color: #02b4ee
+.follow_google a
+	background-color: #e1543f
+.follow_facebook a
+	background-color: #214c79
+.follow_linkedin a
+	background-color: #0072a1
+.follow_rss a
+	background-color: #ee8202
+.follow_pinterest a
+	background-color: #cc1006
 
 // Listado de Artículos
 // *––––––––––––––––––––––––––––––––––––––––––––––––––
