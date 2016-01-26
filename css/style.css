@@ -332,6 +332,9 @@ blockquote {
   h4 {
     font-size: 1.5rem; }
 
+  h5 {
+    font-size: 1.125rem; }
+
   blockquote {
     font-size: 2.625rem; } }
 b, strong {
@@ -382,6 +385,9 @@ a {
 
 .fondo_azul {
   background-color: #0b24fa; }
+
+.fondo_gris_calido {
+  background-color: #ebebeb; }
 
 .fondo_azul_oscuro {
   background-color: #1b122c; }
@@ -435,9 +441,11 @@ ul.follow_links li {
     display: block;
     padding: 1em 0;
     margin: 0 0.5em 1em 0.5em;
-    width: 5.5em; }
+    width: 5.5em;
+    color: white !important; }
   ul.follow_links li a:hover {
-    opacity: 0.8; }
+    opacity: 0.8;
+    text-decoration: none !important; }
 
 .follow_twitter a {
   background-color: #02b4ee; }
@@ -562,7 +570,8 @@ div.small_notice {
 /* Contenidos
  *––––––––––––––––––––––––––––––––––––––––––––––––––
  *- Home
- *- Categoría */
+ *- Categoría
+ *- Single Post */
 .columnas_home {
   color: white;
   position: relative; }
@@ -592,3 +601,59 @@ div.small_notice {
   padding: 8.5em 0;
   color: white;
   margin-top: -3rem; }
+
+.portada_grande img {
+  width: 100%;
+  margin-bottom: 3rem; }
+
+.single_post .cuerpo_post h1 {
+  line-height: 120%;
+  letter-spacing: -1px; }
+.single_post .cuerpo_post p {
+  font-size: 1.25em;
+  line-height: 145%; }
+.single_post .cuerpo_post a {
+  color: #fb0d1b;
+  font-weight: 600; }
+  .single_post .cuerpo_post a:hover {
+    text-decoration: underline; }
+.single_post .cuerpo_post > img {
+  margin-bottom: 2rem; }
+.single_post .cuerpo_post .categoria_tag {
+  margin-bottom: 1rem; }
+.single_post .cuerpo_post .meta {
+  margin-bottom: 2rem; }
+.single_post .cuerpo_post .post_quote .quote_meta {
+  overflow: auto;
+  margin-bottom: 2rem; }
+  .single_post .cuerpo_post .post_quote .quote_meta .quote_pic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8em;
+    width: 40%;
+    float: left; }
+  .single_post .cuerpo_post .post_quote .quote_meta p {
+    color: #919191;
+    width: 55%;
+    float: right; }
+.single_post .cuerpo_post ul.follow_links li:first-child a {
+  margin-left: 0; }
+
+.sidebar_post .ad_group {
+  margin-bottom: 1.5rem; }
+
+.post_comentarios {
+  margin-bottom: 0; }
+
+ul.comentarios_listado li {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid white; }
+  ul.comentarios_listado li:first-child {
+    padding-top: 0; }
+ul.comentarios_listado li p {
+  margin-bottom: 0.4em; }
+  ul.comentarios_listado li p:first-child {
+    color: #919191; }
+    ul.comentarios_listado li p:first-child strong {
+      color: #0d0d0d; }

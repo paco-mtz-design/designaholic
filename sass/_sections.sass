@@ -2,6 +2,7 @@
 	*––––––––––––––––––––––––––––––––––––––––––––––––––
 	*- Home
 	*- Categoría
+	*- Single Post
 
 // Home
 // *––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -39,3 +40,70 @@
 	padding: 8.5em 0
 	color: white
 	margin-top: -$espacio_bloque
+
+// Single Post
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.portada_grande
+	img
+		width: 100%
+		margin-bottom: $espacio_bloque
+
+.single_post
+	.cuerpo_post
+		h1
+			line-height: 120%
+			letter-spacing: -1px
+		p
+			font-size: 1.25em
+			line-height: 145%
+		a
+			color: $rojo
+			font-weight: 600
+			&:hover
+				text-decoration: underline
+		>img
+			margin-bottom: $espacio_doble
+		.categoria_tag
+			margin-bottom: $espacio_sencillo
+		.meta
+			margin-bottom: $espacio_doble
+		.post_quote
+			.quote_meta
+				overflow: auto
+				margin-bottom: $espacio_doble
+				.quote_pic
+					background-position: center
+					background-repeat: no-repeat
+					background-size: cover
+					height: 8em
+					width: 40%
+					float: left
+				p
+					color: $gris_claro
+					width: 55%
+					float: right
+		ul.follow_links li:first-child a
+			margin-left: 0
+
+// Sidebar Post
+.sidebar_post
+	.ad_group
+		margin-bottom: $espacio_medio
+
+// Comentarios
+.post_comentarios
+	margin-bottom: 0
+
+ul.comentarios_listado
+	li
+		padding: $espacio_medio 0
+		border-bottom: 1px solid white
+		&:first-child
+			padding-top: 0
+	li p
+		margin-bottom: .4em
+		&:first-child
+			color: $gris_claro
+			strong
+				color: $negro
