@@ -139,10 +139,38 @@ ul.follow_links
 	>span:last-child
 		float: right
 
+ul.articulos_pager
+	text-align: center
+	li
+		display: inline-block
+	a
+		display: inline-block
+		margin: 0 .5em
+		padding: 1em 1.3em
+		text-align: center
+		font-size: 1.3em
+		border: 1px solid #959595
+		&.active
+			border-color: $rojo
+			background-color: $rojo
+			color: white
+		&:hover
+			color: $negro
+			border: 1px solid #959595
+			background-color: $gris_calido
+
 // Ads
 // *––––––––––––––––––––––––––––––––––––––––––––––––––
 .ad_group
 	margin-bottom: $espacio_bloque
+
+div.small_notice
+	font-size: .8em
+	color: $gris_claro
+	a
+		color: $gris_claro
+		&:hover
+			color: $negro
 
 .ad_dh_uno
 	>div:first-child
@@ -155,9 +183,50 @@ ul.follow_links
 			padding: 1em
 		>div:first-child
 			background-color: $gris_calido
-		span
-			color: $gris_claro
 
+.ad_dh_dos
+	background-color: $gris_calido
+	position: relative
+	margin-bottom: $espacio_bloque
+	>div:first-child
+		height: 6em
+		background-size: cover
+		background-position: center
+	>div:nth-child(2)
+		padding: 1em
+	>div:nth-child(3)
+		padding: 1em
+		text-align: center
+	p, button
+		margin-bottom: 0
+
+@media (min-width: $phablet_break)
+	.ad_dh_dos
+		height: 6em
+		display: table
+		>div
+			display: table-cell
+			vertical-align: middle
+		>div:first-child
+			width: 20%
+		>div:nth-child(2)
+			width: 60%
+		>div:nth-child(3)
+			width: 20%
+			text-align: right
+			button
+				width: 100%
+		div.small_notice
+			position: absolute
+			bottom: -2em
 
 .ad_google_uno
 	text-align: right
+
+.ads_patrocinadores
+	text-align: center
+	ul li
+		display: inline-block
+		margin: 1em
+		@media (min-width: $phablet_break)
+			width: 25%

@@ -42,7 +42,7 @@ Header
 		<div id="top_menu_categories">
 			<div class="container">
 			<ul>
-				<li><a href="#">Arquitectura</a></li><li>
+				<li><a href="category.php">Arquitectura</a></li><li>
 					<a href="#">Comercial</a></li><li>
 					<a href="#">Interiores</a></li><li>
 					<a href="#">Gráfico</a></li><li>

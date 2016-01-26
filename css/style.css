@@ -470,8 +470,36 @@ ul.follow_links li {
   .meta > span:last-child {
     float: right; }
 
+ul.articulos_pager {
+  text-align: center; }
+  ul.articulos_pager li {
+    display: inline-block; }
+  ul.articulos_pager a {
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 1em 1.3em;
+    text-align: center;
+    font-size: 1.3em;
+    border: 1px solid #959595; }
+    ul.articulos_pager a.active {
+      border-color: #fb0d1b;
+      background-color: #fb0d1b;
+      color: white; }
+    ul.articulos_pager a:hover {
+      color: #0d0d0d;
+      border: 1px solid #959595;
+      background-color: #ebebeb; }
+
 .ad_group {
   margin-bottom: 3rem; }
+
+div.small_notice {
+  font-size: 0.8em;
+  color: #919191; }
+  div.small_notice a {
+    color: #919191; }
+    div.small_notice a:hover {
+      color: #0d0d0d; }
 
 .ad_dh_uno > div:first-child {
   float: left;
@@ -483,15 +511,58 @@ ul.follow_links li {
     padding: 1em; }
   .ad_dh_uno > div:last-child > div:first-child {
     background-color: #ebebeb; }
-  .ad_dh_uno > div:last-child span {
-    color: #919191; }
 
+.ad_dh_dos {
+  background-color: #ebebeb;
+  position: relative;
+  margin-bottom: 3rem; }
+  .ad_dh_dos > div:first-child {
+    height: 6em;
+    background-size: cover;
+    background-position: center; }
+  .ad_dh_dos > div:nth-child(2) {
+    padding: 1em; }
+  .ad_dh_dos > div:nth-child(3) {
+    padding: 1em;
+    text-align: center; }
+  .ad_dh_dos p, .ad_dh_dos button {
+    margin-bottom: 0; }
+
+@media (min-width: 550px) {
+  .ad_dh_dos {
+    height: 6em;
+    display: table; }
+    .ad_dh_dos > div {
+      display: table-cell;
+      vertical-align: middle; }
+    .ad_dh_dos > div:first-child {
+      width: 20%; }
+    .ad_dh_dos > div:nth-child(2) {
+      width: 60%; }
+    .ad_dh_dos > div:nth-child(3) {
+      width: 20%;
+      text-align: right; }
+      .ad_dh_dos > div:nth-child(3) button {
+        width: 100%; }
+    .ad_dh_dos div.small_notice {
+      position: absolute;
+      bottom: -2em; } }
 .ad_google_uno {
   text-align: right; }
 
+.ads_patrocinadores {
+  text-align: center; }
+  .ads_patrocinadores ul li {
+    display: inline-block;
+    margin: 1em; }
+    @media (min-width: 550px) {
+      .ads_patrocinadores ul li {
+        width: 25%; } }
+
 /* Contenidos
  *––––––––––––––––––––––––––––––––––––––––––––––––––
- *- Home */
+ *- Home
+ *- Categoría */
 .columnas_home {
   color: white;
   position: relative; }
@@ -516,3 +587,8 @@ ul.follow_links li {
   width: 35%;
   float: right;
   text-align: right; }
+
+.cat_cover {
+  padding: 8.5em 0;
+  color: white;
+  margin-top: -3rem; }
