@@ -603,7 +603,8 @@ div.small_notice {
 
 @media (min-width: 750px) {
   ul.ligas_interes {
-    width: 70%; } }
+    width: 70%;
+    margin-top: 3rem; } }
 ul.ligas_interes li {
   overflow: auto;
   padding-bottom: 2rem;
@@ -615,7 +616,7 @@ ul.ligas_interes li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 8em;
+    height: 6em;
     width: 30%;
     -webkit-clip-path: circle(3em at 3em 3em);
     clip-path: circle(3em at 3em 3eem);
@@ -625,7 +626,8 @@ ul.ligas_interes li {
     width: 70%;
     float: right;
     font-size: 1.5em;
-    padding-left: 1rem; }
+    padding-left: 1rem;
+    margin-bottom: 0; }
     ul.ligas_interes li p a {
       color: #919191; }
       ul.ligas_interes li p a:hover {

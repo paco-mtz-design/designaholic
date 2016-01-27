@@ -35,7 +35,7 @@ Footer
 			<div class="three columns offset-by-one">
 				<h4>Ligas de interés</h4>
 				<ul>
-					<li><a href="#">Contacto</a></li>
+					<li><a href="contacto.php">Contacto</a></li>
 					<li><a href="#">Patrocinadores</a></li>
 					<li><a href="#">Aviso de Privacidad</a></li>
 					<li><a href="#">Mapa de Sitio</a></li>
