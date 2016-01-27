@@ -3,6 +3,7 @@
 	*- Home
 	*- Página Estática
 	*- Categoría
+	*- Categorías Listado
 	*- Single Post
 
 // Home
@@ -76,6 +77,16 @@ ul.ligas_interes
 	padding: 8.5em 0
 	color: white
 	margin-top: -$espacio_bloque
+
+// Categorías Listado
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.loop_cats:after
+	content: ""
+	display: table
+	clear: both
+.loop_cats .four.columns:nth-child(4n)
+	margin-left: 0
 
 // Single Post
 // *––––––––––––––––––––––––––––––––––––––––––––––––––

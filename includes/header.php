@@ -32,7 +32,7 @@ Header
 				<li><a href="#">Reciente</a></li><li>
 					<a href="acerca.php">Acerca</a></li><li>
 					<a href="#">Columnas</a></li><li>
-					<a href="#">Categorías</a></li><li>
+					<a href="categories.php">Categorías</a></li><li>
 					<a href="#">Archivo</a></li><li>
 					<a href="#">Autores</a></li><li>
 					<a href="#">Buscar</a></li>

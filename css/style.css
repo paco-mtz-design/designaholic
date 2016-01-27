@@ -575,6 +575,7 @@ div.small_notice {
  *- Home
  *- Página Estática
  *- Categoría
+ *- Categorías Listado
  *- Single Post */
 .columnas_home {
   color: white;
@@ -637,6 +638,14 @@ ul.ligas_interes li {
   padding: 8.5em 0;
   color: white;
   margin-top: -3rem; }
+
+.loop_cats:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.loop_cats .four.columns:nth-child(4n) {
+  margin-left: 0; }
 
 .portada_grande img {
   width: 100%;

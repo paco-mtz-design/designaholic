@@ -1,7 +1,7 @@
 <?php
 /*
 Designaholic Templates
-Loop 4 artículos
+Loop 3 artículos
 */
 ?>
 
