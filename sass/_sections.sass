@@ -1,6 +1,7 @@
 /* Contenidos
 	*––––––––––––––––––––––––––––––––––––––––––––––––––
 	*- Home
+	*- Página Estática
 	*- Categoría
 	*- Single Post
 
@@ -32,6 +33,39 @@
 		width: 35%
 		float: right
 		text-align: right
+
+// Página Estática
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ul.ligas_interes
+	@media (min-width: $tablet_break)
+		width: 70%
+	li
+		overflow: auto
+		padding-bottom: $espacio_doble
+		margin-bottom: $espacio_doble
+		border-bottom: 1px solid $gris_calido
+		&:last-child
+			border-bottom: none
+		>div
+			background-position: center
+			background-repeat: no-repeat
+			background-size: cover
+			height: 8em
+			width: 30%
+			-webkit-clip-path: circle(3em at 3em 3em)
+			clip-path: circle(3em at 3em 3eem)
+			float: left
+		p
+			color: $gris_claro
+			width: 70%
+			float: right
+			font-size: 1.5em
+			padding-left: $espacio_sencillo
+			a
+				color: $gris_claro
+				&:hover
+					text-decoration: underline
 
 // Categoría
 // *––––––––––––––––––––––––––––––––––––––––––––––––––

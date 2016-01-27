@@ -30,7 +30,7 @@ Header
 			<div class="container">
 			<ul>
 				<li><a href="#">Reciente</a></li><li>
-					<a href="#">Acerca</a></li><li>
+					<a href="acerca.php">Acerca</a></li><li>
 					<a href="#">Columnas</a></li><li>
 					<a href="#">Categorías</a></li><li>
 					<a href="#">Archivo</a></li><li>
