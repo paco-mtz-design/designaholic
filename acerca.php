@@ -9,7 +9,7 @@ Acerca
 
 	<div class="pagina acerca">
 		<div class="container spacer">
-			<h1>Acerca</h1>
+			<h2>Acerca</h2>
 			<div class="row">
 
 				<div class="six columns">
