@@ -5,6 +5,7 @@
 	*- Categoría
 	*- Single Post
 	*- Autores
+	*- Autor Bio
 
 // Home
 // *––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -155,3 +156,20 @@ ul.comentarios_listado
 		margin-bottom: $espacio_sencillo
 	p, h4
 		margin-bottom: .3em
+
+// Autor Bio
+// *––––––––––––––––––––––––––––––––––––––––––––––––––
+.autor_bio
+	margin-bottom: $espacio_bloque
+	.autor_pic
+		margin-bottom: $espacio_doble
+	.autor_ligas
+		a
+			color: $rojo
+			&:hover
+				text-decoration: underline
+	@media (min-width: $desktop_break)
+		.autor_quote
+			position: relative
+			top: 20px
+			left: -20%

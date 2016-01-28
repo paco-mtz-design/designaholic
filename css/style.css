@@ -141,6 +141,11 @@
 
   .offset-by-one-half.column, .offset-by-one-half.columns {
     margin-left: 51%; } }
+.row.fluid .two.columns:nth-child(7),
+.row.fluid .two.columns:nth-child(13),
+.row.fluid .two.columns:nth-child(19) {
+  margin-left: 0; }
+
 .row.fluid .three.columns:nth-child(5),
 .row.fluid .three.columns:nth-child(9),
 .row.fluid .three.columns:nth-child(13) {
@@ -494,7 +499,7 @@ ul.follow_links li {
 
 .articulo {
   margin-bottom: 2rem; }
-  .articulo a > img, .articulo a div.meta, .articulo a h3, .articulo a h4 {
+  .articulo a > img, .articulo a div.meta, .articulo a h3, .articulo a h4, .articulo a h5 {
     margin-bottom: 1em; }
 
 .meta {
@@ -600,7 +605,8 @@ div.small_notice {
  *- Página Estática
  *- Categoría
  *- Single Post
- *- Autores */
+ *- Autores
+ *- Autor Bio */
 .columnas_home {
   color: white;
   position: relative; }
@@ -725,3 +731,17 @@ ul.comentarios_listado li p {
     margin-bottom: 1rem; }
   .autores_listado > div p, .autores_listado > div h4 {
     margin-bottom: 0.3em; }
+
+.autor_bio {
+  margin-bottom: 3rem; }
+  .autor_bio .autor_pic {
+    margin-bottom: 2rem; }
+  .autor_bio .autor_ligas a {
+    color: #fb0d1b; }
+    .autor_bio .autor_ligas a:hover {
+      text-decoration: underline; }
+  @media (min-width: 1000px) {
+    .autor_bio .autor_quote {
+      position: relative;
+      top: 20px;
+      left: -20%; } }

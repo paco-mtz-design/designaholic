@@ -14,7 +14,7 @@ Autores
 		<div class="row fluid autores_listado">
 
 			<div class="three columns">
-				<a href="#">
+				<a href="autor_single.php">
 					<img src="img/placeholders/profile_pic1.jpg" alt="">
 					<p class="color_gris_claro">Posición</p>
 					<h4>Nombre Completo</h4>
@@ -22,7 +22,7 @@ Autores
 				</a>
 			</div>
 			<div class="three columns">
-				<a href="#">
+				<a href="autor_single.php">
 					<img src="img/placeholders/profile_pic2.jpg" alt="">
 					<p class="color_gris_claro">Posición</p>
 					<h4>Nombre Completo</h4>
@@ -30,7 +30,7 @@ Autores
 				</a>
 			</div>
 			<div class="three columns">
-				<a href="#">
+				<a href="autor_single.php">
 					<img src="img/placeholders/profile_pic3.jpg" alt="">
 					<p class="color_gris_claro">Posición</p>
 					<h4>Nombre Completo</h4>
@@ -38,7 +38,7 @@ Autores
 				</a>
 			</div>
 			<div class="three columns">
-				<a href="#">
+				<a href="autor_single.php">
 					<img src="img/placeholders/profile_pic4.jpg" alt="">
 					<p class="color_gris_claro">Posición</p>
 					<h4>Nombre Completo</h4>
@@ -48,7 +48,7 @@ Autores
 			<!-- Termina fila con 4 -->
 
 			<div class="three columns">
-				<a href="#">
+				<a href="autor_single.php">
 					<img src="img/placeholders/profile_pic1.jpg" alt="">
 					<p class="color_gris_claro">Posición</p>
 					<h4>Nombre Completo</h4>
@@ -56,7 +56,7 @@ Autores
 				</a>
 			</div>
 			<div class="three columns">
-				<a href="#">
+				<a href="autor_single.php">
 					<img src="img/placeholders/profile_pic2.jpg" alt="">
 					<p class="color_gris_claro">Posición</p>
 					<h4>Nombre Completo</h4>
@@ -64,7 +64,7 @@ Autores
 				</a>
 			</div>
 			<div class="three columns">
-				<a href="#">
+				<a href="autor_single.php">
 					<img src="img/placeholders/profile_pic3.jpg" alt="">
 					<p class="color_gris_claro">Posición</p>
 					<h4>Nombre Completo</h4>
@@ -72,7 +72,7 @@ Autores
 				</a>
 			</div>
 			<div class="three columns">
-				<a href="#">
+				<a href="autor_single.php">
 					<img src="img/placeholders/profile_pic4.jpg" alt="">
 					<p class="color_gris_claro">Posición</p>
 					<h4>Nombre Completo</h4>
