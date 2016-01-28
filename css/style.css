@@ -151,6 +151,11 @@
 .row.fluid .four.columns:nth-child(10) {
   margin-left: 0; }
 
+.row.fluid .six.columns:nth-child(3),
+.row.fluid .six.columns:nth-child(5),
+.row.fluid .six.columns:nth-child(7) {
+  margin-left: 0; }
+
 /* Buttons
  *–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button, button {

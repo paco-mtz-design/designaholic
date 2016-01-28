@@ -31,9 +31,9 @@ Header
 			<ul>
 				<li><a href="reciente.php">Reciente</a></li><li>
 					<a href="acerca.php">Acerca</a></li><li>
-					<a href="#">Columnas</a></li><li>
+					<a href="archivo.php">Columnas</a></li><li>
 					<a href="categories.php">Categorías</a></li><li>
-					<a href="#">Archivo</a></li><li>
+					<a href="archivo.php">Archivo</a></li><li>
 					<a href="#">Autores</a></li><li>
 					<a href="#">Buscar</a></li>
 			</ul>
