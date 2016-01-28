@@ -364,9 +364,6 @@ blockquote {
 b, strong {
   font-family: "usual-bold"; }
 
-.rojo_txt {
-  color: #fb0d1b; }
-
 /* Contenidos
  *––––––––––––––––––––––––––––––––––––––––––––––––––
  *- Espaciados
@@ -405,7 +402,7 @@ a {
   a:hover {
     color: #919191; }
 
-/* Links
+/* Colores
  *–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .fondo_rojo {
   background-color: #fb0d1b; }
@@ -433,6 +430,9 @@ a {
 
 .color_azul {
   color: #0b24fa; }
+
+.rojo_txt {
+  color: #fb0d1b; }
 
 header {
   text-align: right;
@@ -599,7 +599,8 @@ div.small_notice {
  *- Home
  *- Página Estática
  *- Categoría
- *- Single Post */
+ *- Single Post
+ *- Autores */
 .columnas_home {
   color: white;
   position: relative; }
@@ -717,3 +718,10 @@ ul.comentarios_listado li p {
     color: #919191; }
     ul.comentarios_listado li p:first-child strong {
       color: #0d0d0d; }
+
+.autores_listado > div {
+  margin-bottom: 2rem; }
+  .autores_listado > div img {
+    margin-bottom: 1rem; }
+  .autores_listado > div p, .autores_listado > div h4 {
+    margin-bottom: 0.3em; }

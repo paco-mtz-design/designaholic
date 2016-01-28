@@ -34,7 +34,7 @@ Header
 					<a href="archivo.php">Columnas</a></li><li>
 					<a href="categories.php">Categorías</a></li><li>
 					<a href="archivo.php">Archivo</a></li><li>
-					<a href="#">Autores</a></li><li>
+					<a href="autores.php">Autores</a></li><li>
 					<a href="#">Buscar</a></li>
 			</ul>
 			</div>
