@@ -623,6 +623,9 @@ div.small_notice {
     height: auto;
     opacity: 0.2;
     z-index: 2; }
+    @media (min-width: 1300px) {
+      .columnas_home .columnas_autor_foto {
+        max-width: 25%; } }
 
 .home_ads_uno > div > div:first-child {
   width: 65%;
