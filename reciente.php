@@ -1,22 +1,15 @@
 <?php
 /*
 Designaholic Templates
-Categoría
+Reciente
 */
 ?>
 
 <?php include 'includes/header.php' ?>
 
-	<!-- Portada de categoría -->
-	<div class="bloque_horizontal cat_cover" style="background-image: url('http://40.media.tumblr.com/5a64f8e10906552642483a9f0645104f/tumblr_o1ac9dY13u1ujxyzao1_1280.jpg');">
-		<div class="container">
-			<h1>Arquitectura</h1>
-		</div>
-	</div>
-
 	<div class="container spacer">
 
-		<?php include 'includes/loop3col.php' ?>
+		<h2>Reciente</h2>
 
 		<?php include 'includes/ad_dh_dos.php' ?>
 

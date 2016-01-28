@@ -40,9 +40,18 @@ $column-margin: 2%
 	padding: 0 20px
 	box-sizing: border-box
 
+.row
+	font-size: 0
+	line-height: 0
+
+.row .column, .row .columns,
+	font-size: $general_font_size
+	line-height: $general_line_height
+
 .column, .columns
 	width: 100%
-	float: left
+	display: inline-block
+	vertical-align: top
 	box-sizing: border-box
 
 /* Between small phones and desktop
@@ -134,6 +143,17 @@ $column-margin: 2%
 	.offset-by-one-half
 		&.column, &.columns
 			margin-left: grid-offset-length(6)
+
+// Use of columns on fluid sets of list items
+
+.row.fluid .three.columns:nth-child(5),
+.row.fluid .three.columns:nth-child(9),
+.row.fluid .three.columns:nth-child(13)
+	margin-left: 0
+.row.fluid .four.columns:nth-child(4),
+.row.fluid .four.columns:nth-child(7),
+.row.fluid .four.columns:nth-child(10)
+	margin-left: 0
 
 /* Buttons
  *––––––––––––––––––––––––––––––––––––––––––––––––––

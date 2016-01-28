@@ -23,9 +23,18 @@
   padding: 0 20px;
   box-sizing: border-box; }
 
+.row {
+  font-size: 0;
+  line-height: 0; }
+
+.row .column, .row .columns {
+  font-size: 16px;
+  line-height: 130%; }
+
 .column, .columns {
   width: 100%;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   box-sizing: border-box; }
 
 /* Between small phones and desktop */
@@ -132,6 +141,16 @@
 
   .offset-by-one-half.column, .offset-by-one-half.columns {
     margin-left: 51%; } }
+.row.fluid .three.columns:nth-child(5),
+.row.fluid .three.columns:nth-child(9),
+.row.fluid .three.columns:nth-child(13) {
+  margin-left: 0; }
+
+.row.fluid .four.columns:nth-child(4),
+.row.fluid .four.columns:nth-child(7),
+.row.fluid .four.columns:nth-child(10) {
+  margin-left: 0; }
+
 /* Buttons
  *–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button, button {
@@ -575,7 +594,6 @@ div.small_notice {
  *- Home
  *- Página Estática
  *- Categoría
- *- Categorías Listado
  *- Single Post */
 .columnas_home {
   color: white;
@@ -638,14 +656,6 @@ ul.ligas_interes li {
   padding: 8.5em 0;
   color: white;
   margin-top: -3rem; }
-
-.loop_cats:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.loop_cats .four.columns:nth-child(4n) {
-  margin-left: 0; }
 
 .portada_grande img {
   width: 100%;

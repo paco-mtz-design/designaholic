@@ -29,7 +29,7 @@ Header
 		<nav id="top_menu">
 			<div class="container">
 			<ul>
-				<li><a href="#">Reciente</a></li><li>
+				<li><a href="reciente.php">Reciente</a></li><li>
 					<a href="acerca.php">Acerca</a></li><li>
 					<a href="#">Columnas</a></li><li>
 					<a href="categories.php">Categorías</a></li><li>

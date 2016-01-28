@@ -9,7 +9,9 @@ Footer
 <div id="footer" class="fondo_azul_oscuro bloque_horizontal">
 	<div class="container spacer">
 		<div class="row">
-			<h3 class="ten columns">Desde 2009, Designaholic.mx difunde el trabajo de diseñadores mexicanos e internacionales, promueve crítica y opinión sobre varias disciplinas de Diseño, y cubre los eventos de Diseño más importantes a nivel internacional.</h3>
+			<div class="ten columns">
+				<h3>Desde 2009, Designaholic.mx difunde el trabajo de diseñadores mexicanos e internacionales, promueve crítica y opinión sobre varias disciplinas de Diseño, y cubre los eventos de Diseño más importantes a nivel internacional.</h3>
+			</div>
 		</div>
 		<div class="row">
 			<div class="four columns">

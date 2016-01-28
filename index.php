@@ -116,7 +116,7 @@ Index
 				</div>
 			</div>
 
-			<?php include 'includes/loop4col.php' ?>
+			<?php include 'includes/loop4col1row.php' ?>
 
 		</div>
 

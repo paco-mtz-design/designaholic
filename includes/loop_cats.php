@@ -5,7 +5,7 @@ Loop Categorías
 */
 ?>
 
-<div class="loop_cats">
+<div class="row fluid loop_cats">
 
 	<div class="four columns articulo">
 		<a href="single_post.php">
