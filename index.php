@@ -7,6 +7,16 @@ Index
 
 <?php include 'includes/header.php' ?>
 
+	<div class="home_destacado_principal fondo_rojo">
+		<div class="container">
+			<div class="anim_imagen">
+			</div>
+			<div class="big_title">
+				<h1>Resumen del Abierto Mexicano de Diseño 2016</h1>
+			</div>
+		</div>
+	</div>
+
 	<div class="container spacer">
 
 		<!-- Primer bloque de 3 destacados -->
