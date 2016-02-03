@@ -10,33 +10,32 @@
 // Home
 // *––––––––––––––––––––––––––––––––––––––––––––––––––
 
-.home_destacado_principal
+#home_destacado_principal
 	color: white
 	margin-top: -$espacio_bloque
 	margin-bottom: $espacio_bloque
-	height: 80vh
-	.container
+	padding-bottom: $espacio_doble
+	#animacion_contenedor
 		position: relative
+		height: 80vh
 		.big_title
 			position: relative
 			z-index: 3
-			h1
-				font-size: 6.25rem
+			h1.huge
 				opacity: 1
 				-webkit-transition: all 0.2s ease-out
 				-moz-transition: all 0.2s ease-out
 				transition: all 0.2s ease-out
-		.anim_imagen
+		#anim_imagen
 			position: absolute
-			top: 50%
-			left: 50%
-			transform: translate(-50%, -30%)
+			top: 0
+			left: 0
 			display: block
-			width: 702px
-			height: 400px
+			// width: 702px
+			// height: 400px
+			// clip: rect(20px, 600px, 380px, 100px)
 			opacity: .2
 			z-index: 2
-			clip: rect(20px, 600px, 380px, 100px)
 			border: 1px solid white
 			-webkit-transition: all 0.2s ease-out
 			-moz-transition: all 0.2s ease-out
@@ -46,10 +45,10 @@
 			background-size: cover
 		&:hover
 			cursor: pointer
-		&:hover .anim_imagen
-			clip: rect(-40px, 702px, 400px, -80px)
+		&:hover #anim_imagen
+			// clip: rect(-40px, 702px, 400px, -80px)
 			opacity: 1
-		&:hover h1
+		&:hover h1.huge
 			opacity: .5
 
 .columnas_home

@@ -7,12 +7,12 @@ Index
 
 <?php include 'includes/header.php' ?>
 
-	<div class="home_destacado_principal fondo_rojo">
-		<div class="container">
-			<div class="anim_imagen">
+	<div id="home_destacado_principal" class="fondo_rojo">
+		<div id="animacion_contenedor" class="container">
+			<div id="anim_imagen">
 			</div>
 			<div class="big_title">
-				<h1>Resumen del Abierto Mexicano de Diseño 2016</h1>
+				<h1 class="huge">Resumen del Abierto Mexicano de Diseño 2016</h1>
 			</div>
 		</div>
 	</div>

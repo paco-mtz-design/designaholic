@@ -344,6 +344,9 @@ h4 {
 small, .meta {
   font-size: 0.8em; }
 
+.huge {
+  font-size: 1.8rem; }
+
 blockquote {
   font-size: 1.6em; }
 
@@ -365,7 +368,10 @@ blockquote {
     font-size: 1.125rem; }
 
   blockquote {
-    font-size: 2.625rem; } }
+    font-size: 2.625rem; }
+
+  .huge {
+    font-size: 6.25rem; } }
 b, strong {
   font-family: "usual-bold"; }
 
@@ -616,33 +622,29 @@ div.small_notice {
  *- Single Post
  *- Autores
  *- Autor Bio */
-.home_destacado_principal {
+#home_destacado_principal {
   color: white;
   margin-top: -3rem;
   margin-bottom: 3rem;
-  height: 80vh; }
-  .home_destacado_principal .container {
-    position: relative; }
-    .home_destacado_principal .container .big_title {
+  padding-bottom: 2rem; }
+  #home_destacado_principal #animacion_contenedor {
+    position: relative;
+    height: 80vh; }
+    #home_destacado_principal #animacion_contenedor .big_title {
       position: relative;
       z-index: 3; }
-      .home_destacado_principal .container .big_title h1 {
-        font-size: 6.25rem;
+      #home_destacado_principal #animacion_contenedor .big_title h1.huge {
         opacity: 1;
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
         transition: all 0.2s ease-out; }
-    .home_destacado_principal .container .anim_imagen {
+    #home_destacado_principal #animacion_contenedor #anim_imagen {
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -30%);
+      top: 0;
+      left: 0;
       display: block;
-      width: 702px;
-      height: 400px;
       opacity: 0.2;
       z-index: 2;
-      clip: rect(20px, 600px, 380px, 100px);
       border: 1px solid white;
       -webkit-transition: all 0.2s ease-out;
       -moz-transition: all 0.2s ease-out;
@@ -650,12 +652,11 @@ div.small_notice {
       background-image: url(../img/placeholders/destacado_home.jpg);
       background-position: center;
       background-size: cover; }
-    .home_destacado_principal .container:hover {
+    #home_destacado_principal #animacion_contenedor:hover {
       cursor: pointer; }
-    .home_destacado_principal .container:hover .anim_imagen {
-      clip: rect(-40px, 702px, 400px, -80px);
+    #home_destacado_principal #animacion_contenedor:hover #anim_imagen {
       opacity: 1; }
-    .home_destacado_principal .container:hover h1 {
+    #home_destacado_principal #animacion_contenedor:hover h1.huge {
       opacity: 0.5; }
 
 .columnas_home {
