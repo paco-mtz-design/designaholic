@@ -451,14 +451,23 @@ header {
 
 #top_menu_categories {
   background-color: #fb0d1b;
-  padding: 2rem 0; }
+  padding: 1.5rem 0; }
   #top_menu_categories a {
     color: white; }
+  #top_menu_categories ul {
+    float: right;
+    font-size: 1.2em; }
+  #top_menu_categories .top_branding {
+    float: left; }
 
 #top_menu ul li,
 #top_menu_categories ul li {
   display: inline-block;
   padding: 0.5em; }
+
+.top_branding {
+  position: relative;
+  top: 0.3em; }
 
 #footer {
   margin-bottom: 0; }
