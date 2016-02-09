@@ -19,7 +19,6 @@ Header
 
 	<link rel="stylesheet" href="css/resets.css">
 	<link rel="stylesheet" href="css/style.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/slide_out_menu/default.css" /> -->
 	<link rel="stylesheet" type="text/css" href="css/slide_out_menu/component.css" />
 	<script src="scripts/modernizr.custom.js"></script>
 </head>
