@@ -113,6 +113,11 @@
 	border-bottom: 1px solid #ebebeb;
 }
 
+/*Override padding:0 for al UL, while matching Skeleton column width*/
+.cbp-hsmenu-wrapper ul .cbp-hssubmenu {
+	padding: 0 2%;
+}
+
 .cbp-hssubmenu:before,
 .cbp-hssubmenu:after {
 	content: " ";
@@ -130,12 +135,7 @@
 	-moz-transition: opacity 0.1s 0s;
 	transition: opacity 0.1s 0s;
 }
-.cbp-hssubmenu > li:first-child {
-	padding-left: 2em;
-}
-.cbp-hssubmenu > li:last-child {
-	padding-right: 2em;
-}
+
 .cbp-hssubmenu > li a {
 	display: block;
 	text-align: left;
