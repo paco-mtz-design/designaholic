@@ -87,24 +87,23 @@ header
 	padding: .7em 0
 	a
 		color: $gris_claro
-#top_menu_categories
-	background-color: $rojo
-	padding: $espacio_medio 0
-	a
-		color: white
-	ul
-		float: right
-		font-size: 1.2em
 	.top_branding
 		float: left
-#top_menu ul,
-#top_menu_categories ul
+		position: relative
+		top: .3em
+#top_menu ul
 	li
 		display: inline-block
 		padding: .5em
-.top_branding
-	position: relative
-	top: .3em
+
+// Esconder menú acceso rápido a
+// categorías debajo de tablet
+@media (max-width: $tablet_break)
+	.cbp-hsmenu-wrapper
+		display: none
+
+
+
 
 // Footer
 // *––––––––––––––––––––––––––––––––––––––––––––––––––

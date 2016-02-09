@@ -454,27 +454,18 @@ header {
   padding: 0.7em 0; }
   #top_menu a {
     color: #919191; }
+  #top_menu .top_branding {
+    float: left;
+    position: relative;
+    top: 0.3em; }
 
-#top_menu_categories {
-  background-color: #fb0d1b;
-  padding: 1.5rem 0; }
-  #top_menu_categories a {
-    color: white; }
-  #top_menu_categories ul {
-    float: right;
-    font-size: 1.2em; }
-  #top_menu_categories .top_branding {
-    float: left; }
-
-#top_menu ul li,
-#top_menu_categories ul li {
+#top_menu ul li {
   display: inline-block;
   padding: 0.5em; }
 
-.top_branding {
-  position: relative;
-  top: 0.3em; }
-
+@media (max-width: 750px) {
+  .cbp-hsmenu-wrapper {
+    display: none; } }
 #footer {
   margin-bottom: 0; }
 

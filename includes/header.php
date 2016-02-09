@@ -19,6 +19,9 @@ Header
 
 	<link rel="stylesheet" href="css/resets.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/slide_out_menu/default.css" /> -->
+	<link rel="stylesheet" type="text/css" href="css/slide_out_menu/component.css" />
+	<script src="scripts/modernizr.custom.js"></script>
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -28,6 +31,9 @@ Header
 	<header>
 		<nav id="top_menu">
 			<div class="container">
+				<div class="top_branding">
+					<a href="index.php"><img src="img/logo_designaholic.jpg" alt="Designaholic"></a>
+				</div>
 				<ul>
 					<li><a href="reciente.php">Reciente</a></li><li>
 						<a href="acerca.php">Acerca</a></li><li>
@@ -39,21 +45,9 @@ Header
 				</ul>
 			</div>
 		</nav>
-		<div id="top_menu_categories">
-			<div class="container">
-				<div class="top_branding">
-					<a href="index.php"><img src="img/logo_designaholic.jpg" alt="Designaholic"></a>
-				</div>
-				<ul>
-					<li><a href="category.php">Arquitectura</a></li><li>
-						<a href="#">Comercial</a></li><li>
-						<a href="#">Interiores</a></li><li>
-						<a href="#">Gráfico</a></li><li>
-						<a href="#">Gadgets</a></li><li>
-						<a href="#">Moda</a></li><li>
-						<a href="#">Producto</a></li><li>
-						<a href="#">Mobiliario</a></li>
-				</ul>
-			</div>
-		</div>
+
+		<?php include 'includes/top_slide_out_menu.php' ?>
+
+
+
 	</header>
