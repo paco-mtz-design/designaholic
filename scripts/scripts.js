@@ -35,3 +35,8 @@ mask_container.onmouseover = function open_mask(){
 mask_container.onmouseout = function recover_mask(){
 		document.getElementById("anim_imagen").setAttribute("style","width: "+ clientWidth +"px;height: "+ clientHeight +"px;clip: rect("+ mask_init_top +"px, "+ mask_init_right +"px, "+ mask_init_bottom +"px, "+ mask_init_left +"px)");
 }
+
+// Toggle Menu
+$(".burger").click(function(){
+	$(".container > ul").toggleClass("show_menu");
+});

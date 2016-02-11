@@ -33,14 +33,17 @@ Header
 				<div class="top_branding">
 					<a href="index.php"><img src="img/logo_designaholic.jpg" alt="Designaholic"></a>
 				</div>
+				<div class="burger">
+					<div></div><div></div><div></div>
+				</div>
 				<ul>
-					<li><a href="reciente.php">Reciente</a></li><li>
-						<a href="acerca.php">Acerca</a></li><li>
-						<a href="archivo.php">Columnas</a></li><li>
-						<a href="categories.php">Categorías</a></li><li>
-						<a href="archivo.php">Archivo</a></li><li>
-						<a href="autores.php">Autores</a></li><li>
-						<a href="#">Buscar</a></li>
+					<li><a href="reciente.php">Reciente</a></li>
+					<li><a href="acerca.php">Acerca</a></li>
+					<li><a href="archivo.php">Columnas</a></li>
+					<li><a href="categories.php">Categorías</a></li>
+					<li><a href="archivo.php">Archivo</a></li>
+					<li><a href="autores.php">Autores</a></li>
+					<li><a href="#">Buscar</a></li>
 				</ul>
 			</div>
 		</nav>
