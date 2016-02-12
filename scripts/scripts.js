@@ -37,6 +37,27 @@ mask_container.onmouseout = function recover_mask(){
 }
 
 // Toggle Menu
-$(".burger").click(function(){
-	$(".container > ul").toggleClass("show_menu");
+$("#burger").click(function(){
+	$("header").toggleClass("show_menu");
 });
+
+// Toggle Search Box
+$("#search").click(function(){
+	$(".searchbox").toggleClass("show_search");
+});
+
+// var divh = document.getElementById('list').offsetHeight;
+// $("#list").css('height', '100px');
+// $("#burger").click(function() {
+// 	$("#list").animate({
+// 			height: divh
+// 	}, 500);
+// });
+//
+// //  Menu
+// $('header #list').height() - 230;
+// $('#burger').click(function() {
+// 	$('header').toggleClass( "hide_options show_options" );
+// });
+// $(window).resize(function() {  $('header.show_options #list').height() - 230;  });
+// $(window).trigger('resize');

@@ -27,29 +27,33 @@ Header
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<header>
+	<header class="hide_options">
 		<nav id="top_menu">
 			<div class="container">
 				<div class="top_branding">
 					<a href="index.php"><img src="img/logo_designaholic.jpg" alt="Designaholic"></a>
 				</div>
-				<div class="burger">
+				<div class="burger" id="burger">
 					<div></div><div></div><div></div>
 				</div>
-				<ul>
+				<ul id="list">
 					<li><a href="reciente.php">Reciente</a></li>
 					<li><a href="acerca.php">Acerca</a></li>
 					<li><a href="archivo.php">Columnas</a></li>
 					<li><a href="categories.php">Categorías</a></li>
 					<li><a href="archivo.php">Archivo</a></li>
 					<li><a href="autores.php">Autores</a></li>
-					<li><a href="#">Buscar</a></li>
 				</ul>
+				<div class="search" id="search">
+					<a href="#">Buscar</a>
+				</div>
 			</div>
 		</nav>
-
 		<?php include 'includes/top_slide_out_menu.php' ?>
 
+		<div class="searchbox">
+			<input type="search" placeholder="Buscar">
+		</div>
 
 
 	</header>
