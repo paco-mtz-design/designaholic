@@ -52,7 +52,7 @@ Header
 		<?php include 'includes/top_slide_out_menu.php' ?>
 
 		<div class="searchbox">
-			<input type="search" placeholder="Buscar">
+			<input type="search" placeholder="Escribe aquí para buscar:">
 		</div>
 
 

@@ -46,6 +46,46 @@ $("#search").click(function(){
 	$(".searchbox").toggleClass("show_search");
 });
 
+// $(function(){
+// 	$('#first').children().wrapAll('<div class="wrapper"></div>');
+// 	var expandedHeight = $('.wrapper').height();
+// 	var collapsedHeight = $('#first').height();
+// 	//$('p').text(innerHeight);
+// 	$('button').on("click", function(){
+// 		if ($(this).hasClass("expand")) {
+// 			$("#first").animate({
+// 				height: expandedHeight
+// 			}, 500, function(){
+// 				$('.expand').toggleClass("expand reset").text("reset");
+// 			});
+// 		}
+// 		else {
+// 			$("#first").animate({height: 0}, 500 );
+// 			$(this).toggleClass("expand reset").text("expand");
+// 		}
+// 	});
+// });
+
+$(function(){
+	$('#list').children().wrapAll('<div class="wrapper"></div>');
+	var expandedHeight = $('.wrapper').height();
+	var collapsedHeight = $('#list').height();
+	//$('p').text(innerHeight);
+	$('#burger').on("click", function(){
+		if ($(this).hasClass("expand")) {
+			$("#list").animate({
+				height: 0
+			}, 200, function(){
+				$('.expand').toggleClass("expand reset");
+			});
+		}
+		else {
+			$("#list").animate({height: expandedHeight}, 200 );
+			$(this).toggleClass("expand reset");
+		}
+	});
+});
+
 // var divh = document.getElementById('list').offsetHeight;
 // $("#list").css('height', '100px');
 // $("#burger").click(function() {
