@@ -92,7 +92,7 @@ header
 		position: relative
 		top: .3em
 #top_menu ul
-	display: inline
+	display: inline-block
 	li
 		display: inline-block
 		padding: .5em
@@ -104,14 +104,13 @@ header
 	top: 7px
 	position: relative
 	> div
-		transition: ease all 0.2s
+		transition: ease all 0.3s
 		height: 3px
 		margin-bottom: 5px
 		background-color: $gris_claro
 
 .search
 	display: inline-block
-	margin-right: 40px
 .searchbox
 	height: 0
 	overflow: hidden
@@ -141,6 +140,8 @@ header
 .searchbox.show_search
 	height: 100px
 	transition: ease all 0.4s
+.hide_list
+	height: 0!important
 
 
 // Esconder menú acceso rápido a
@@ -151,17 +152,30 @@ header
 	.burger
 		display: block
 		cursor: pointer
-	.search:before
-		content: url(../img/search.svg)
-		top: 3px
+	.search
+		display: inline-block
+		width: 73px
+		margin-right: 20px
 		position: relative
-		left: -5px
-
+		a
+			display: inline-block
+			margin-top: 10px
+	.search:before
+		content: url(../img/search1.svg)
+		margin-top: 11px
+		position: absolute
+		margin-left: -20px
+	header ul
+		height: 0
+		opacity: 0
+		overflow: hidden
 
 	header.show_menu #top_menu
+		#list
+			transition: ease all 0.3s
 		.burger
 			> div:nth-child(1)
-				transition: ease all 0.2s
+				transition: ease all 0.3s
 				-moz-transform: rotate(45deg)
 				-ms-transform: rotate(45deg)
 				-webkit-transform: rotate(45deg)
@@ -171,7 +185,7 @@ header
 			> div:nth-child(2)
 				opacity: 0
 			> div:nth-child(3)
-				transition: ease all 0.2s
+				transition: ease all 0.3s
 				-moz-transform: rotate(-45deg)
 				-ms-transform: rotate(-45deg)
 				-webkit-transform: rotate(-45deg)
@@ -179,9 +193,16 @@ header
 				position: relative
 				top: -2px
 	#top_menu
+		.top_branding
+			max-width: 250px
+			width: 100%
+			a img
+				width: 100%
+				height: auto
 		.container
 			overflow: hidden
 		ul
+			opacity: 1
 			width: 100%
 			text-align: center
 			float: left
@@ -189,13 +210,13 @@ header
 			transition: ease all 0.3s
 			li
 				display: block
-	header.show_menu #top_menu ul
-		transition: ease all 0.3s
-#list
-	height: 0
-	width: 200px
-	overflow: hidden
 
+@media (max-width: $small_break)
+	.top_branding
+		width: 100%
+		max-width: inherit
+	.search
+		float: left
 
 // Footer
 // *––––––––––––––––––––––––––––––––––––––––––––––––––
