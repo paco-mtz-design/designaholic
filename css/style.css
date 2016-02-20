@@ -894,6 +894,46 @@ ul.comentarios_listado li p {
     ul.comentarios_listado li p:first-child strong {
       color: #0d0d0d; }
 
+.galeria_thumbnails {
+  width: 100%;
+  height: 700px; }
+
+.slider-for {
+  height: 700px; }
+  .slider-for .slick-slide {
+    height: 700px; }
+  .slider-for .slick-prev {
+    border: none;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    z-index: 3; }
+  .slider-for .slick-next {
+    border: none;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    z-index: 3; }
+  .slider-for .img_cont img {
+    width: auto;
+    max-height: 100%;
+    display: inline; }
+  .slider-for .img_cont {
+    display: table;
+    height: 100%;
+    width: 100%; }
+  .slider-for .img_cont > div {
+    display: table-cell !important;
+    height: 700px;
+    text-align: center;
+    vertical-align: middle; }
+
+.slider-nav {
+  bottom: 200px; }
+  .slider-nav .slick-slide img {
+    width: 80px !important;
+    height: 80px !important; }
+
 .autores_listado > div {
   margin-bottom: 2rem; }
   .autores_listado > div img {

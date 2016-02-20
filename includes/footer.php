@@ -56,6 +56,29 @@ Footer
 	var menu = new cbpHorizontalSlideOutMenu( document.getElementById( 'cbp-hsmenu-wrapper' ) );
 </script>
 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+<script type="text/javascript">
+$('.slider-for').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows: true	,
+	fade: true,
+	asNavFor: '.slider-nav'
+});
+
+$('.slider-nav').slick({
+	slidesToShow: 8,
+	slidesToScroll: 1,
+	asNavFor: '.slider-for',
+	dots: true,
+	centerMode: true,
+	focusOnSelect: true
+});
+</script>
+
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

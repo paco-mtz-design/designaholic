@@ -20,6 +20,9 @@ Header
 	<link rel="stylesheet" href="css/resets.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/slide_out_menu/component.css" />
+
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+
 	<script src="scripts/modernizr.custom.js"></script>
 </head>
 <body>
