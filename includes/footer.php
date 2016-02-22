@@ -66,17 +66,24 @@ $('.slider-for').slick({
 	slidesToScroll: 1,
 	arrows: true	,
 	fade: true,
-	asNavFor: '.slider-nav'
+	asNavFor: '.slider-nav',
 });
 
 $('.slider-nav').slick({
-	slidesToShow: 8,
+	variableWidth: true,
+	arrows: false,
+	slidesToShow: 5,
 	slidesToScroll: 1,
 	asNavFor: '.slider-for',
-	dots: true,
+	dots: false,
 	centerMode: true,
 	focusOnSelect: true
 });
+
+var n = $( ".img_cont" ).length;
+$( ".counter span" ).append( $( "<b></b>" ) );
+$( ".counter span b" ).text( "de " + n );
+
 </script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

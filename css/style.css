@@ -896,24 +896,38 @@ ul.comentarios_listado li p {
 
 .galeria_thumbnails {
   width: 100%;
-  height: 700px; }
+  height: 700px;
+  margin-bottom: 2rem; }
+  @media (max-width: 400px) {
+    .galeria_thumbnails {
+      height: 500px; } }
 
 .slider-for {
   height: 700px; }
   .slider-for .slick-slide {
     height: 700px; }
   .slider-for .slick-prev {
+    width: 100px;
     border: none;
     left: 0;
     top: 50%;
     position: absolute;
-    z-index: 3; }
+    z-index: 3;
+    color: transparent; }
+  .slider-for .slick-prev:before {
+    color: #1c1c1c;
+    content: "anterior"; }
   .slider-for .slick-next {
+    width: 100px;
     border: none;
     right: 0;
     top: 50%;
     position: absolute;
-    z-index: 3; }
+    z-index: 3;
+    color: transparent; }
+  .slider-for .slick-next:before {
+    color: #1c1c1c;
+    content: "siguiente"; }
   .slider-for .img_cont img {
     width: auto;
     max-height: 100%;
@@ -927,12 +941,40 @@ ul.comentarios_listado li p {
     height: 700px;
     text-align: center;
     vertical-align: middle; }
+  .slider-for .counter {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 130px; }
+  .slider-for .counter span {
+    font-family: "usual-bold"; }
+  .slider-for .counter p {
+    color: #333333;
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.3); }
+  @media (max-width: 750px) {
+    .slider-for .slick-prev, .slider-for .slick-next {
+      display: none !important; } }
+  @media (max-width: 400px) {
+    .slider-for {
+      height: 500px; }
+      .slider-for .counter {
+        bottom: 30px; }
+      .slider-for .slick-slide, .slider-for .img_cont > div {
+        height: 400px; } }
 
 .slider-nav {
-  bottom: 200px; }
+  max-width: 720px;
+  margin: 0 auto;
+  bottom: 110px; }
+  .slider-nav .slick-slide {
+    margin-right: 20px; }
   .slider-nav .slick-slide img {
     width: 80px !important;
     height: 80px !important; }
+  .slider-nav .slick-current img {
+    border: 3px solid #0b24fa; }
 
 .autores_listado > div {
   margin-bottom: 2rem; }

@@ -4,84 +4,145 @@ Designaholic Templates
 Single Post
 */
 ?>
-
+<?php
+	$a = 1;
+?>
 <?php include 'includes/header.php' ?>
+
+<div class="single_post" id="sp_portada_grande">
+	<div class="container spacer">
+	<div class="row">
+
+		<!-- Cuerpo principal post -->
+		<article class="cuerpo_post eight columns">
+
+			<p class="categoria_tag"><a href="#">Mobiliario</a></p>
+			<h1>Tylko e Yves Behar Desarrollan Productos Personalizables</h1>
+		</article>
+	</div>
+	</div>
+</div>
 	<div class="galeria_thumbnails fondo_gris_calido">
 		<div class="container">
 			<div class="slider-for">
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/200x200"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="http://placehold.it/1000x3000">
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/900x900"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="img/placeholders/row_img4.jpg">
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/200x200"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="img/placeholders/row_img1.jpg">
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/900x900"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="img/placeholders/row_img2.jpg">
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/200x200"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="img/placeholders/row_img3.jpg">
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/900x900"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="img/placeholders/row_img4.jpg">
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/200x200"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="img/placeholders/row_img3.jpg">
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/900x900"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="img/placeholders/row_img1.jpg">
+						</div>
 					</div>
 				</div>
 				<div>
 					<div class="img_cont">
-						<div><img src="http://placehold.it/200x200"></div>
+						<div>
+							<div class="counter">
+								<p><span><?php echo$a++ ;?> </span>  — Detalle de silla, mesa y complementos</p>
+							</div>
+							<img src="img/placeholders/row_img2.jpg">
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="slider-nav">
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img3.jpg">
 				</div>
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img4.jpg">
 				</div>
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img1.jpg">
 				</div>
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img2.jpg">
 				</div>
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img3.jpg">
 				</div>
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img1.jpg">
 				</div>
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img2.jpg">
 				</div>
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img3.jpg">
 				</div>
 				<div>
-					<img src="http://placehold.it/200x200">
+					<img src="img/placeholders/row_img3.jpg">
 				</div>
 			</div>
 		</div>
@@ -89,22 +150,13 @@ Single Post
 
 	<div class="single_post" id="sp_portada_grande">
 		<div class="container spacer">
-
-			<div class="portada_grande">
-				<div class="row">
-					<div class="twelve columns">
-						<img src="img/placeholders/post_cover_img.jpg" alt="">
-					</div>
-				</div>
-			</div>
-
 			<div class="row">
 
 				<!-- Cuerpo principal post -->
 				<article class="cuerpo_post eight columns">
 
-					<p class="categoria_tag"><a href="#">Mobiliario</a></p>
-					<h1>Tylko e Yves Behar Desarrollan Productos Personalizables</h1>
+					<!-- <p class="categoria_tag"><a href="#">Mobiliario</a></p>
+					<h1>Tylko e Yves Behar Desarrollan Productos Personalizables</h1>-->
 					<div class="meta">
 						<span>Martes 27 de octubre de 2015</span>
 						<span>Publicado por <a href="#">Jimena Rdz</a></span>

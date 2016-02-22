@@ -197,22 +197,35 @@ ul.comentarios_listado
 .galeria_thumbnails
 	width: 100%
 	height: 700px
+	margin-bottom: 2rem
+	@media (max-width: $small_break)
+		height: 500px
 .slider-for
 	height: 700px
 	.slick-slide
 		height: 700px
 	.slick-prev
+		width: 100px
 		border: none
 		left: 0
 		top: 50%
 		position: absolute
 		z-index: 3
+		color: rgba(0,0,0,0)
+	.slick-prev:before
+		color: #1c1c1c
+		content: 'anterior'
 	.slick-next
+		width: 100px
 		border: none
 		right: 0
 		top: 50%
 		position: absolute
 		z-index: 3
+		color: rgba(0,0,0,0)
+	.slick-next:before
+		color: #1c1c1c
+		content: 'siguiente'
 	.img_cont img
 		width: auto
 		max-height: 100%
@@ -226,12 +239,40 @@ ul.comentarios_listado
 		height: 700px
 		text-align: center
 		vertical-align: middle
+	.counter
+		position: absolute
+		left: 0
+		right: 0
+		bottom: 130px
+	.counter span
+		font-family: "usual-bold"
+	.counter p
+		color: #333333
+		display: inline-block
+		padding: 15px 20px
+		background-color: rgba(255,255,255,0.3)
+	@media (max-width: $tablet_break)
+		.slick-prev, .slick-next
+			display: none!important
+	@media (max-width: $small_break)
+		height: 500px
+		.counter
+			bottom: 30px
+		.slick-slide, .img_cont > div
+			height: 400px
+
 .slider-nav
-	bottom: 200px
+	max-width: 720px
+	margin: 0 auto
+	bottom: 110px
+	.slick-slide
+		margin-right: 20px
 	.slick-slide
 	.slick-slide img
 		width: 80px!important
 		height: 80px!important
+	.slick-current img
+		border: 3px solid $azul
 
 
 
