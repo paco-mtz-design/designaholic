@@ -90,9 +90,12 @@ header
 	.top_branding
 		float: left
 		position: relative
-		top: .3em
+		top: 0.3em
+		max-width: 260px
+		display: inline
+		width: 100%
 #top_menu ul
-	display: inline-block
+	display: inline
 	li
 		display: inline-block
 		padding: .5em
@@ -144,14 +147,7 @@ header
 	height: 0!important
 
 
-// Esconder menú acceso rápido a
-// categorías debajo de tablet
-@media (max-width: $tablet_break)
-	.cbp-hsmenu-wrapper
-		display: none
-	.burger
-		display: block
-		cursor: pointer
+@media (max-width: $desktop_break)
 	.search
 		display: inline-block
 		width: 73px
@@ -165,6 +161,15 @@ header
 		margin-top: 11px
 		position: absolute
 		margin-left: -20px
+
+// Esconder menú acceso rápido a
+// categorías debajo de tablet
+@media (max-width: $tablet_break)
+	.cbp-hsmenu-wrapper
+		display: none
+	.burger
+		display: block
+		cursor: pointer
 	header ul
 		height: 0
 		opacity: 0
@@ -195,7 +200,7 @@ header
 	#top_menu
 		.top_branding
 			max-width: 250px
-			width: 100%
+			width: 85%
 			a img
 				width: 100%
 				height: auto
@@ -210,6 +215,31 @@ header
 			transition: ease all 0.3s
 			li
 				display: block
+
+@media (max-width: $phablet_break)
+	.burger
+		width: 10%
+		max-width: 30px
+		display: inline-block
+		cursor: pointer
+	.search
+		width: 100%
+		text-align: left
+		margin-right: 20px
+		margin-left: 20px
+	.searchbox
+		input[type="search"]
+			font-size: 1.25rem
+			height: 60px
+			width: 100%
+			padding-left: 50px
+			background-size: 15px
+			background-position: 30px 21px
+
+	.searchbox.show_search
+		height: 60px
+		transition: ease all 0.4s
+
 
 @media (max-width: $small_break)
 	.top_branding

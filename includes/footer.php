@@ -94,6 +94,7 @@ $("#search").click(function(){
 	$(".searchbox").toggleClass("show_search");
 });
 
+
 $(function(){
 	$('#list').children().wrapAll('<div class="wrapper"></div>');
 	var expandedHeight = $('.wrapper').height();
@@ -113,6 +114,8 @@ $(function(){
 		}
 	});
 });
+
+
 
 function checkWidth() {
 	if ($(window).width() < 750) {
