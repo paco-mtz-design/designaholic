@@ -20,6 +20,9 @@ Header
 	<link rel="stylesheet" href="css/resets.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/slide_out_menu/component.css" />
+
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+
 	<script src="scripts/modernizr.custom.js"></script>
 </head>
 <body>
@@ -27,26 +30,33 @@ Header
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<header>
+	<header class="hide_options">
 		<nav id="top_menu">
 			<div class="container">
 				<div class="top_branding">
 					<a href="index.php"><img src="img/logo_designaholic.jpg" alt="Designaholic"></a>
 				</div>
-				<ul>
-					<li><a href="reciente.php">Reciente</a></li><li>
-						<a href="acerca.php">Acerca</a></li><li>
-						<a href="archivo.php">Columnas</a></li><li>
-						<a href="categories.php">Categorías</a></li><li>
-						<a href="archivo.php">Archivo</a></li><li>
-						<a href="autores.php">Autores</a></li><li>
-						<a href="#">Buscar</a></li>
+				<div class="burger" id="burger">
+					<div></div><div></div><div></div>
+				</div>
+				<ul id="list">
+					<li><a href="reciente.php">Reciente</a></li>
+					<li><a href="acerca.php">Acerca</a></li>
+					<li><a href="archivo.php">Columnas</a></li>
+					<li><a href="categories.php">Categorías</a></li>
+					<li><a href="archivo.php">Archivo</a></li>
+					<li><a href="autores.php">Autores</a></li>
 				</ul>
+				<div class="search" id="search">
+					<a href="#">Buscar</a>
+				</div>
 			</div>
 		</nav>
-
 		<?php include 'includes/top_slide_out_menu.php' ?>
 
+		<div class="searchbox">
+			<input type="search" placeholder="Escribe aquí para buscar:">
+		</div>
 
 
 	</header>
