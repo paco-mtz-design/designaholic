@@ -56,6 +56,79 @@ Footer
 	var menu = new cbpHorizontalSlideOutMenu( document.getElementById( 'cbp-hsmenu-wrapper' ) );
 </script>
 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+<script type="text/javascript">
+$('.slider-for').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows: true	,
+	fade: true,
+	asNavFor: '.slider-nav',
+});
+
+$('.slider-nav').slick({
+	variableWidth: true,
+	arrows: false,
+	slidesToShow: 5,
+	slidesToScroll: 1,
+	asNavFor: '.slider-for',
+	dots: false,
+	centerMode: true,
+	focusOnSelect: true
+});
+
+var n = $( ".img_cont" ).length;
+$( ".counter span" ).append( $( "<b></b>" ) );
+$( ".counter span b" ).text( "de " + n );
+
+// Toggle Menu
+$("#burger").click(function(){
+	$("header").toggleClass("show_menu");
+});
+
+// Toggle Search Box
+$("#search").click(function(){
+	$(".searchbox").toggleClass("show_search");
+});
+
+
+$(function(){
+	$('#list').children().wrapAll('<div class="wrapper"></div>');
+	var expandedHeight = $('.wrapper').height();
+	var collapsedHeight = $('#list').height();
+	//$('p').text(innerHeight);
+	$('#burger').on("click", function(){
+		if ($(this).hasClass("expand")) {
+			$("#list").animate({
+				height: 0
+			}, 200, function(){
+				$('.expand').toggleClass("expand reset");
+			});
+		}
+		else {
+			$("#list").animate({height: expandedHeight}, 200 );
+			$(this).toggleClass("expand reset");
+		}
+	});
+});
+
+
+
+function checkWidth() {
+	if ($(window).width() < 750) {
+		$('#list').removeClass('hide_list');
+	} else {
+		$('#list').addClass('hide_list');
+	}
+}
+$(window).resize(checkWidth);
+
+// http://stackoverflow.com/questions/2758651/how-to-change-height-div-on-window-resize
+</script>
+
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
