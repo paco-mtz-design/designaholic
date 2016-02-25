@@ -467,6 +467,8 @@ header {
   #top_menu ul li {
     display: inline-block;
     padding: 0.5em; }
+  #top_menu ul .wrapper {
+    display: inline; }
 
 .burger {
   display: none;
@@ -517,7 +519,12 @@ header {
 .hide_list {
   height: 0 !important; }
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
+  #top_menu ul {
+    display: inline-block; }
+    #top_menu ul .wrapper {
+      display: inherit; }
+
   .search {
     display: inline-block;
     width: 73px;
