@@ -95,10 +95,12 @@ header
 		display: inline
 		width: 100%
 #top_menu ul
-	display: inline-block
+	display: inline
 	li
 		display: inline-block
 		padding: .5em
+	.wrapper
+		display: inline
 .burger
 	display: none
 	float: right
@@ -147,7 +149,11 @@ header
 	height: 0!important
 
 
-@media (max-width: $desktop_break)
+@media (max-width: $tablet_break)
+	#top_menu ul
+		display: inline-block
+		.wrapper
+			display: inherit
 	.search
 		display: inline-block
 		width: 73px
