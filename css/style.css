@@ -780,7 +780,8 @@ div.small_notice {
     height: 80vh; }
     #home_destacado_principal #animacion_contenedor .big_title {
       position: relative;
-      z-index: 3; }
+      z-index: 3;
+      top: 1em; }
       #home_destacado_principal #animacion_contenedor .big_title h1.huge {
         opacity: 1;
         -webkit-transition: all 0.2s ease-out;
@@ -788,7 +789,7 @@ div.small_notice {
         transition: all 0.2s ease-out; }
     #home_destacado_principal #animacion_contenedor #anim_imagen {
       position: absolute;
-      top: 0;
+      top: 1em;
       left: 0;
       display: block;
       opacity: 0.2;
