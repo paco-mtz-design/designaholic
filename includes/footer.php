@@ -103,11 +103,11 @@ $(function() {
 	$( "#burger" ).on("click", function(){
 		$("header").toggleClass( "show_menu" );
 		if ($(this).hasClass( "expand" )) {
-			$( "#list" ).animate({ height: "0px" }, 200);
+			$( "#list" ).animate({ height: "0px" }, 300);
 			$(this).toggleClass( "expand reset" );
 		}
 		else {
-			$( "#list" ).animate({ height: totalSize }, 200 );
+			$( "#list" ).animate({ height: totalSize }, 300 );
 			$(this).toggleClass( "expand reset" );
 		}
 	});
