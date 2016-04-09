@@ -1,6 +1,8 @@
 
 
 $(window).on("resize", function () {
+	var count = 0;
+
 	var clientHeight = document.getElementById('animacion_contenedor').clientHeight;
 	var clientWidth = document.getElementById('animacion_contenedor').clientWidth;
 	var offsetHeight = document.getElementById('animacion_contenedor').offsetHeight;

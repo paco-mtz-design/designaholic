@@ -93,6 +93,15 @@ $( "#search" ).click(function(){
 	$( ".searchbox" ).toggleClass( "show_search" );
 });
 
+// Slick for home slider
+$(document).ready(function(){
+	$('.your-class').slick({
+		dots: true,
+		arrows: false
+	});
+});
+
+
 // Trigger Menu
 $(function() {
 	var numberItems = $( "#list li" ).length;
