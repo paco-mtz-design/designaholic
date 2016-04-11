@@ -93,6 +93,21 @@ $( "#search" ).click(function(){
 	$( ".searchbox" ).toggleClass( "show_search" );
 });
 
+// Slick for home slider
+$(document).ready(function(){
+	$('.home-slider').slick({
+		dots: true,
+		arrows: false,
+		autoplay: true,
+		slidesToScroll: 1,
+		slidesToShow: 1,
+		infinite: true,
+		fade: true,
+		cssEase: 'linear'
+	});
+});
+
+
 // Trigger Menu
 $(function() {
 	var numberItems = $( "#list li" ).length;

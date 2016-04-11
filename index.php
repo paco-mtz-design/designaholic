@@ -8,11 +8,30 @@ Index
 <?php include 'includes/header.php' ?>
 
 	<div id="home_destacado_principal" class="fondo_rojo">
-		<div id="animacion_contenedor" class="container">
-			<div id="anim_imagen">
+		<div id="animacion_contenedor" class="container home-slider">
+			<div>
+				<div>
+					<div id="anim_imagen" class="anim_imagen"></div>
+					<div class="big_title">
+						<h1 class="huge">1</h1>
+					</div>
+				</div>
 			</div>
-			<div class="big_title">
-				<h1 class="huge">Resumen del Abierto Mexicano de Diseño 2016</h1>
+			<div>
+				<div>
+					<div id="anim_imagen" class="anim_imagen"></div>
+					<div class="big_title">
+						<h1 class="huge">2</h1>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<div id="anim_imagen" class="anim_imagen"></div>
+					<div class="big_title">
+						<h1 class="huge">Niña te extraño.</h1>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
