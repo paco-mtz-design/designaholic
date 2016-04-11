@@ -20,6 +20,7 @@
 	#animacion_contenedor
 		position: relative
 		height: 80vh
+		z-index: 2
 		.big_title
 			position: relative
 			z-index: 3
@@ -33,6 +34,7 @@
 			position: absolute
 			top: 1em
 			left: 0
+			max-width: 100%
 			display: block
 			// width: 702px
 			// height: 400px
@@ -51,8 +53,33 @@
 		&:hover #anim_imagen
 			// clip: rect(-40px, 702px, 400px, -80px)
 			opacity: 1
-		&:hover h1.huge
-			opacity: .5
+	.slick-slide > div
+		position: relative
+		height: 100%
+		width: 100%
+	.slick-list
+		height: 100%
+		position: relative
+	ul.slick-dots
+		display: block
+		bottom: 0
+		position: absolute
+		width: 100%
+		z-index: 2
+		text-align: center
+		li
+			display: inline-block
+			margin-right: 20px
+			button
+				max-width: 80px
+				width: 100%
+				height: 10px
+				background-color: rgba(255,255,255,0.5)
+				color: rgba(0,0,0,0)
+				border: none
+		li.slick-active
+			height: 10px
+			background-color: rgba(255, 255, 255, 1)
 
 .columnas_home
 	color: white

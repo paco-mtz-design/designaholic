@@ -6,50 +6,9 @@ Index
 ?>
 
 <?php include 'includes/header.php' ?>
-<style>
-	ul.slick-dots{
-		display: block;
-		bottom: 0;
-		position: absolute;
-		width: 100%;
-		z-index: 2;
-		text-align: center;
-	}
-
-	ul.slick-dots li{
-		display: inline-block;
-		margin-right: 20px;
-	}
-	#home_destacado_principal #animacion_contenedor{
-		z-index: 2;
-	}
-
-	.slick-slide > div {
-		position: relative;
-		height: 100%;
-		width: 100%;
-	}
-	.slick-list {
-		height: 100%;
-		position: relative;
-	}
-	#home_destacado_principal #animacion_contenedor #anim_imagen {
-		max-width: 100%;}
-	#animacion_contenedor ul.slick-dots li button {
-		max-width: 80px;
-		width: 100%;
-		height: 10px;
-		background-color: rgba(255,255,255,0.5);
-		color: rgba(0,0,0,0);
-		border: none;
-	}
-	#animacion_contenedor ul.slick-dots li.slick-active button{
-		background-color: rgba(255, 255, 255, 1);
-	}
-</style>
 
 	<div id="home_destacado_principal" class="fondo_rojo">
-		<div id="animacion_contenedor" class="container your-class">
+		<div id="animacion_contenedor" class="container home-slider">
 			<div>
 				<div>
 					<div id="anim_imagen" class="anim_imagen"></div>
@@ -70,7 +29,7 @@ Index
 				<div>
 					<div id="anim_imagen" class="anim_imagen"></div>
 					<div class="big_title">
-						<h1 class="huge">3</h1>
+						<h1 class="huge">Niña te extraño.</h1>
 					</div>
 				</div>
 			</div>

@@ -95,9 +95,15 @@ $( "#search" ).click(function(){
 
 // Slick for home slider
 $(document).ready(function(){
-	$('.your-class').slick({
+	$('.home-slider').slick({
 		dots: true,
-		arrows: false
+		arrows: false,
+		autoplay: true,
+		slidesToScroll: 1,
+		slidesToShow: 1,
+		infinite: true,
+		fade: true,
+		cssEase: 'linear'
 	});
 });
 
